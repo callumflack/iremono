@@ -12,9 +12,7 @@ This is a work in progress. I will be actively updating it in use on current pro
 
 2. Create a variables file. You can customise everything pattern in the library there. See `variables.example.css` for an example file listing all current variables (aka css custom properties).
 
-3. Then import your `variables.css` and `iremono` it to your CSS imports directory file, as described below.
-
-**Please note well:** the order of imports matters. Add your variables first, then font-faces (if required), then `iremono`. Theme stylings should be last.
+3. Then import your `variables.css` and `iremono` it to your CSS imports directory file, as described below. **note well:** the order of imports matters. Add your variables first, then font-faces (if required), and then `iremono`. Theme stylings should be last. This way, all utilities and mixins within `iremono` will be available in your theme css as well.
 
 ```css
 /* Variables */
