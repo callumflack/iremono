@@ -4,7 +4,7 @@ Iremono is a semi-atomic CSS styling kit for designing in code.
 
 ## Note well
 
-This is a work in progress. I will be actively updating it in use on current projects. Expect heavy, breaking changes.
+This is a work in progress. I will be actively updating it in use on current projects. Expect breaking changes.
 
 ## How to use it
 
@@ -29,6 +29,15 @@ This is a work in progress. I will be actively updating it in use on current pro
 ```
 
 4. Finally, this postcss library makes use of `postcss-mixins`, `postcss-easy-import` and `postcss-preset-env`. I like managing their config with a `postcss.config.js` file, an example of which is provided.
+
+## Some form of documentation will be done in time
+
+Suffice to say, no docs at the moment. I will, however, list a few techniques:
+
+1. Responsive typography using ems against a body font-size in rems, whose value is updated at media queries.
+2. Updating the value of css custom properties in media queries. Too much fun not to do.
+3. This means I can manage white space repsonsively with a single css class that holds a single custom variable. No enormous classes full of the same list of media queries everywhere.
+4. The most used utilities are name-spaced with their type's initial letter. For example, width classes start with `n-`. Not every utility is namespaced this way as I find it too hard to remember them all.
 
 ## What does Iremono mean?
 
