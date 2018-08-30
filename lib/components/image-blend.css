@@ -1,0 +1,47 @@
+/*
+
+  Image blend
+  
+  http://codepen.io/Guilh/pen/LEQWev?editors=110
+  https://sarasoueidan.com/demos/css-blender/
+  http://una.im/CSSgram/
+  https://css-tricks.com/css3-gradients/
+
+ */
+
+@define-mixin imageBlend $color: var(--initialBlendColor) {
+  background-blend-mode: multiply;
+  background-color: $color;
+}
+
+.c-imageBlend {
+  @mixin imageBlend;
+}
+
+/*
+
+    Other examples…
+
+@define-mixin icon $network, $color: blue {
+  .icon.is-$(network) {
+    color: $color;
+    @mixin-content;
+  }
+  .icon.is-$(network):hover {
+    color: white;
+    background: $color;
+  }
+}
+
+@mixin icon twitter {
+  background: url(twt.png);
+}
+@mixin icon youtube, red {
+  background: url(youtube.png);
+}
+
+.o-imageBlend--linearGradient:after {
+  background-image: linear-gradient(rgba(30, 27, 34, 0), rgba(30, 27, 34, 0.85) 70%);
+  content: "";
+}
+ */

@@ -1,0 +1,9 @@
+.c-pale-text {
+  color: var(--c-pale-text) !important;
+}
+.bg-pale-green {
+  background-color: var(--c-pale-green) !important;
+}
+.bg-pale-purple {
+  background-color: var(--c-pale-purple) !important;
+}

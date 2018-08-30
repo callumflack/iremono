@@ -1,0 +1,37 @@
+.video-button-wrapper {
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  opacity: 1;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: opacity var(--transition-speed) var(--transition-easing-cubic-state);
+
+  &.is-dark:after {
+    background-color: rgba(0, 0, 0, 0.4);
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .is-active {
+    opacity: 0;
+    transition: opacity var(--transition-speed) var(--transition-easing-cubic-state);
+  }
+}
+
+.video-button {
+  color: var(--c-bg);
+  z-index: 1;
+}
+
+.video-button-icon {
+  height: 10em;
+  width: 10em;
+}

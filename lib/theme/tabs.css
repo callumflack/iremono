@@ -1,0 +1,75 @@
+/* 
+  http://youmightnotneedjs.com/#tabs
+  https://codepen.io/vulpesigni/pen/yyZYNy?editors=1100
+  https://codepen.io/mildrenben/pen/bdGdOb
+ */
+
+@import "../variables.css";
+
+:root {
+  --tabs-input-height: 101px;
+  --tabs-content-height: 640px;
+}
+
+.Tabs {
+  display: flex;
+  /* height: calc(var(--tabs-input-height) + var(--tabs-content-height));
+  height: calc(101px + 640px); */
+  height: calc(741 / 17 / 16 * 16 * 0.8em);
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+
+  @media (--md) {
+    height: calc(741 / 17 / 16 * 16 * 1em);
+  }
+}
+
+.Tabs label {
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 0.5em;
+  z-index: 1;
+
+  & img {
+    max-width: 3rem;
+    margin: 0 0.5em;
+  }
+}
+
+.Tabs label,
+.Tabs input {
+  /* height: 101px;
+  height: calc(101 / 17 / 16 * 16 * 1em); */
+  margin-top: auto;
+}
+
+.Tabs input[type="radio"],
+.Tab-content {
+  display: none;
+}
+
+.Tabs input[type="radio"]:checked + label {
+  /* background: var(--c-neutral); */
+  border-color: var(--c-rule);
+}
+
+.Tabs input[type="radio"]:checked + label + .Tab-content {
+  display: block;
+}
+
+.Tab-content {
+  /* height: var(--tabs-content-height);
+  height: 640px;
+  height: calc(640 / 17 / 16 * 16 * 1em); */
+  order: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  & img {
+    margin: auto;
+    width: 80%;
+  }
+}

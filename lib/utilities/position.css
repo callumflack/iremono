@@ -1,0 +1,74 @@
+/*
+  Useful pin mixins.
+  Source: https://github.com/suitcss/utils-position
+ */
+
+@define-mixin pin {
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  margin: auto;
+  top: 0;
+  width: 100%;
+}
+
+@define-mixin absolutePin {
+  @mixin pin;
+  position: absolute;
+}
+
+@define-mixin fullScreen {
+  @mixin pin;
+  position: fixed;
+}
+
+/*
+  Absolute
+ */
+
+.u-absolutePin {
+  @mixin absolutePin;
+}
+
+.u-absolute,
+.u-absoluteCenter {
+  position: absolute;
+}
+
+/*
+  Center method w/o pinning: to its nearest relatively-positioned ancestor.
+ */
+
+.u-fixedCenter,
+.u-absoluteCenter {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*
+  Promote fixed elements into a new layer for performance reasons.
+ */
+
+.u-fullScreen {
+  @mixin fullScreen;
+}
+
+.u-fullScreen,
+.u-fixedCenter,
+.u-fixed {
+  backface-visibility: hidden; /* 1 */
+  position: fixed;
+}
+
+/* 
+  Relative & static
+ */
+
+.u-relative {
+  position: relative;
+}
+
+.u-static {
+  position: static;
+}

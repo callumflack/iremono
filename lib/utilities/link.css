@@ -1,0 +1,58 @@
+/*
+  Remove link styles
+  src: https://github.com/suitcss/utils-link/blob/master/lib/link.css
+ */
+
+.u-linkClean,
+.u-linkClean:hover,
+.u-linkClean:focus,
+.u-linkClean:active {
+  background-image: none !important;
+  color: currentColor;
+  text-decoration: none !important;
+  text-shadow: initial !important;
+}
+
+.u-linkCleanChildren a,
+.u-linkCleanChildren > * {
+  background-image: none !important;
+  color: currentColor;
+  text-decoration: none !important;
+  text-shadow: initial !important;
+}
+
+/*
+  Make an anchor display as a block
+  src: https://github.com/suitcss/utils-link/blob/master/lib/link.css
+ */
+
+.u-linkBlock,
+.u-linkBlock:hover,
+.u-linkBlock:focus,
+.u-linkBlock:active {
+  background-image: none !important;
+  display: block !important;
+  text-decoration: none !important;
+}
+
+/*
+  Make the cursor point
+ */
+
+.u-linkPointer,
+.u-linkPointer:hover,
+.u-linkPointer:focus,
+.u-linkPointer:active {
+  cursor: pointer !important;
+}
+
+/* 
+  Don't show an outline on a link
+ */
+
+.u-linkNoOutline {
+  &:active,
+  &:focus {
+    outline: 0;
+  }
+}

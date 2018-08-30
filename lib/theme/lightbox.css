@@ -1,0 +1,52 @@
+/* http://youmightnotneedjs.com/#lightbox */
+
+:root {
+  --thumbnail-size: var(--s-5);
+  --background-color: rgba(0, 0, 0, 0.8);
+}
+
+.Lightbox {
+}
+
+.Lightbox-items {
+  background-color: salmon;
+  min-height: 640px;
+  position: relative;
+}
+
+.Lightbox-item {
+  display: none;
+  /* height: 100%;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 999; */
+
+  height: 100%;
+  text-align: center;
+}
+
+.Lightbox-item:target {
+  outline: none;
+  display: block;
+}
+
+/* .Lightbox-item img {
+  max-width: 90%;
+  max-height: 80%;
+  margin-top: 2%;
+} */
+
+.Lightbox-thumbs-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Lightbox-thumb {
+  max-width: var(--thumbnail-size);
+  max-width: 4rem;
+  margin: 0.5em;
+}

@@ -1,0 +1,24 @@
+/* 
+  https://www.smashingmagazine.com/2013/02/setting-weights-and-styles-at-font-face-declaration/#unique-font-family-names-matching-weights-and-styles 
+ */
+
+@font-face {
+  font-family: var(--ff-text);
+  font-style: normal;
+  font-weight: 400;
+  src: url("~static/fonts/WorkSans-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: var(--ff-text);
+  font-style: normal;
+  font-weight: 500;
+  src: url("~static/fonts/WorkSans-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: var(--ff-title);
+  font-style: normal;
+  font-weight: 300;
+  src: url("~static/fonts/ChronicleDisplay-Light.otf") format("woff");
+}

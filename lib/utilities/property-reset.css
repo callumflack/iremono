@@ -1,0 +1,15 @@
+/* 
+
+  reset of all properties…
+  1. to initial values 
+  2. to inheritable values, or else initial values
+
+*/
+
+@define-mixin is-initial {
+  all: initial;
+}
+
+@define-mixin is-unset {
+  all: unset;
+}

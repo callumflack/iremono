@@ -1,0 +1,55 @@
+/* http://youmightnotneedjs.com/#view_switcher */
+
+.Slider {
+  /* width: 300px; */
+  /* height: 200px; */
+  height: 50vh;
+  overflow: hidden;
+  margin: 0 auto;
+  /* min-height: 640px; */
+  margin-bottom: 10vh;
+  position: relative;
+  background-color: #eee;
+}
+
+.Slider-image {
+  height: 40vh;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.5s ease-in-out;
+  width: inherit;
+
+  &:target {
+    transition: all 0.5s ease-in-out;
+  }
+
+  &:not(:target),
+  &:target ~ img#slide-3 {
+    position: relative;
+    opacity: 0;
+  }
+
+  /* set initially visible */
+  &#slide-3 {
+    position: absolute;
+    opacity: 1;
+  }
+}
+
+.Slider-nav {
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+
+  & a:hover {
+    background: #ece;
+  }
+
+  & img {
+    max-width: 4rem;
+    margin: 0.5em;
+  }
+}

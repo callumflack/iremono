@@ -1,0 +1,99 @@
+/*
+
+  SVG icon
+
+ */
+
+.u-iconWrapper {
+  cursor: pointer;
+  display: inline-block;
+  margin: calc(-1 * var(--space));
+  padding: var(--space);
+}
+
+.u-icon {
+  display: inline-block;
+  fill: currentColor;
+  /* height: 1.5rem; */
+  line-height: 1;
+  max-width: 100%;
+  position: relative;
+  text-align: center;
+  user-select: none;
+  /* width: 1.5rem; */
+
+  & > svg {
+    fill: currentColor;
+    transition: fill 400ms ease;
+  }
+}
+
+/* 
+
+  SVG icon: theme & scaling
+  https://css-tricks.com/scale-svg/ 
+
+*/
+
+.u-icon--close {
+  cursor: pointer;
+  height: 19px;
+  margin-top: 12px;
+  width: 19px;
+}
+
+.u-icon--tiny,
+.u-icon--tiny svg {
+  height: 0.75em;
+  width: 0.75em;
+}
+
+.u-icon--sm,
+.u-icon--sm svg {
+  height: 1rem;
+  width: 1rem;
+}
+
+.u-icon--sm {
+  // transform: translateY(2px);
+}
+
+.u-icon--md,
+.u-icon--md svg {
+  height: 1.875rem;
+  width: 1.875rem;
+}
+
+.u-icon-toggle svg {
+  height: 1.5em;
+  width: 1.5em;
+
+  @media (--md) {
+    height: 2rem;
+    width: 2rem;
+  }
+}
+
+/*
+
+  Target blank icon
+
+ */
+
+.icon-targetblank {
+  position: relative;
+}
+
+.icon-targetblank:after {
+  content: "\2192";
+  display: inline-block;
+  font-family: var(--ff-stack-sans);
+  font-weight: 400;
+  font-size: 60%;
+  position: absolute;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  vertical-align: top;
+  right: -1em;
+  top: 0.25em;
+}

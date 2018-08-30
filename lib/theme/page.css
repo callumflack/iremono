@@ -1,0 +1,146 @@
+/* 
+
+  Content block 
+  …with fixed nav
+  …with sticky footer
+
+  refs: 
+  * https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+  * https://stackoverflow.com/questions/18485059/forward-slash-in-class-name
+
+*/
+
+div[class*="body-page-"] {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+/* the home page is different… */
+.body-page- .Content,
+.body-home .Content {
+  height: auto;
+}
+
+/* move everything below the nav */
+.Content {
+  flex: 1;
+  padding-top: var(--menu-height);
+  /* height: 100vh; */
+}
+
+/* holding page */
+.Content--holdingpage {
+  height: auto;
+  margin-top: 0;
+}
+
+/* 
+
+  Pages
+
+ */
+
+.body-page-contact {
+  background-color: var(--c-neutral);
+
+  @media (--md) {
+    @mixin CoverImage;
+    background-image: url("/images/home-girl-1.jpg");
+  }
+}
+
+.body-page-contact .Footer a {
+  color: var(--c-bg);
+}
+
+.body-page-faqs,
+.body-page-delivery-and-returns {
+  background-color: var(--c-neutral);
+}
+
+/* 
+
+  Cards
+
+*/
+
+.Card-block {
+  color: var(--c-pale-text);
+  padding: calc(0.8 * var(--responsive-space)) calc(1 * var(--responsive-space));
+
+  @media (--sm) {
+    /* padding: calc(1.5 * var(--s-4)) calc(1.666 * var(--s-4)); */
+  }
+}
+
+/* 
+
+  Close page icon
+
+*/
+
+.ClosePage {
+  position: fixed;
+  right: 0.75rem;
+  top: 0;
+  z-index: 1;
+
+  @media (--mo) {
+    & >>> svg {
+      height: 2rem;
+      width: 2rem;
+    }
+  }
+
+  @media (--sm) {
+    right: 0;
+    top: var(--s-5);
+  }
+}
+
+/* 
+
+  Utils
+
+*/
+
+.u-initialCase {
+  text-transform: initial !important;
+}
+
+.u-sm-textCenter {
+  @media (--sm) {
+    text-align: center;
+  }
+}
+
+.bg-sm-brand-bg {
+  @media (--sm) {
+    background-color: var(--c-brand-bg) !important;
+  }
+}
+
+.mo-FlexGrid--block {
+  @media (--mo) {
+    @mixin flexGrid 0, auto, var(--space);
+    margin: calc(-1 * var(--space));
+
+    & > * {
+      padding-top: var(--space);
+      padding-bottom: var(--space);
+    }
+  }
+}
+
+.b-mo-py3 {
+  @media (--mo) {
+    padding-top: calc(2 * var(--responsive-space));
+    padding-bottom: calc(2 * var(--responsive-space));
+  }
+}
+.b-mo-pb3 {
+  @media (--mo) {
+    padding-bottom: calc(2 * var(--responsive-space));
+  }
+}
