@@ -3,72 +3,66 @@
 @import "suitcss-base/index.css";
 
 /* Variables */
-@import "./lib/variables.css";
+/* @import "./variables.css"; */
 
 /* Utilities */
-@import "./lib/utilities/block.css";
-@import "./lib/utilities/color.css";
-@import "./lib/utilities/controls.css";
-@import "./lib/utilities/display.css";
-@import "./lib/utilities/flexbox.css";
-@import "./lib/utilities/height.css";
-@import "./lib/utilities/icon.css";
-@import "./lib/utilities/input.css";
-@import "./lib/utilities/link.css";
-@import "./lib/utilities/position.css";
-@import "./lib/utilities/spacing.css";
-@import "./lib/utilities/text.css";
-@import "./lib/utilities/width.css";
-@import "./lib/utilities/zindex.css";
+@import "./utilities/block.css";
+@import "./utilities/color.css";
+@import "./utilities/controls.css";
+@import "./utilities/display.css";
+@import "./utilities/flexbox.css";
+@import "./utilities/height.css";
+@import "./utilities/icon.css";
+@import "./utilities/input.css";
+@import "./utilities/link.css";
+@import "./utilities/media.css";
+@import "./utilities/position.css";
+@import "./utilities/spacing.css";
+@import "./utilities/text.css";
+@import "./utilities/width.css";
+@import "./utilities/zindex.css";
 
 /* Forms */
-@import "./lib/forms/base.css";
-@import "./lib/forms/checkboxes.css";
-@import "./lib/forms/color-inputs.css";
-@import "./lib/forms/datalists.css";
-@import "./lib/forms/file-inputs.css";
-@import "./lib/forms/radio-buttons.css";
-@import "./lib/forms/range-inputs.css";
-@import "./lib/forms/selects.css";
-@import "./lib/forms/temporal-inputs.css";
-@import "./lib/forms/text-inputs.css";
+@import "./utilities/forms/base.css";
+@import "./utilities/forms/checkboxes.css";
+@import "./utilities/forms/color-inputs.css";
+@import "./utilities/forms/datalists.css";
+@import "./utilities/forms/file-inputs.css";
+@import "./utilities/forms/radio-buttons.css";
+@import "./utilities/forms/range-inputs.css";
+@import "./utilities/forms/selects.css";
+@import "./utilities/forms/temporal-inputs.css";
+@import "./utilities/forms/textareas.css";
+@import "./utilities/forms/text-inputs.css";
 
 /* Typography */
-@import "./lib/typography/font-face.css";
-@import "./lib/typography/font-styles.css";
-@import "./lib/typography/font-spacing.css";
-@import "./lib/typography/base.css";
-@import "./lib/typography/link.css";
-@import "./lib/typography/lists.css";
-@import "./lib/typography/horizontal-rule.css";
-@import "./lib/typography/scope.css";
+/* @import "./typography/font-face.css"; */
+@import "./typography/font-styles.css";
+@import "./typography/font-spacing.css";
+@import "./typography/base.css";
+@import "./typography/link.css";
+@import "./typography/lists.css";
+@import "./typography/horizontal-rule.css";
+@import "./typography/scope.css";
 
 /* Components */
-@import "./lib/components/arrow.css";
-@import "./lib/components/aspect-ratio.css";
-@import "./lib/components/button.css";
-@import "./lib/components/container.css";
-@import "./lib/components/cover-image.css";
-@import "./lib/components/flex-grid.css";
-@import "./lib/components/image-blend.css";
-@import "./lib/components/image-loader.css";
-@import "./lib/components/modal.css";
-@import "./lib/components/popover.css";
+@import "./components/arrow.css";
+@import "./components/aspect-ratio.css";
+@import "./components/button.css";
+@import "./components/container.css";
+@import "./components/cover-image.css";
+@import "./components/flex-grid.css";
+@import "./components/image-blend.css";
+@import "./components/modal.css";
+@import "./components/popover.css";
 
-/* Test */
-@import "./lib/theme/page.css";
-
-/*
-@import "./lib/theme/category-button.css";
-@import "./lib/theme/header.css";
-@import "./lib/theme/footer.css";
-@import "./lib/theme/form.css";
-@import "./lib/theme/page.css";
-@import "./lib/theme/page-application.css";
-@import "./lib/theme/page-design.css";
-@import "./lib/theme/page-gallery.css";
-@import "./lib/theme/post.css";
-@import "./lib/theme/nav-toggle.css";
-@import "./lib/theme/nav-modal.css";
-@import "./lib/theme/nav-mobile.css";
-*/
+/* Theme */
+/* @import "./theme/card.css";
+@import "./theme/cart.css";
+@import "./theme/colors.css";
+@import "./theme/form.css";
+@import "./theme/link.css";
+@import "./theme/menu.css";
+@import "./theme/page.css";
+@import "./theme/page-transitions.css";
+@import "./theme/type.css"; */
