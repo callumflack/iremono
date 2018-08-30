@@ -1,6 +1,6 @@
 /* Resets */
-@import "./node_modules/normalize.css/normalize.css";
-@import "./node_modules/suitcss-base/index.css";
+@import "normalize.css";
+@import "suitcss-base/index.css";
 
 /* Variables */
 @import "./lib/variables.css";

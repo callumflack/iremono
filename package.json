@@ -1,7 +1,7 @@
 {
-  "name": "iremono-css",
+  "name": "iremono",
   "version": "0.0.1",
-  "description": "A postcss styles library",
+  "description": "A postcss patterns library",
   "keywords": [
     "browser",
     "postcss",
@@ -14,7 +14,6 @@
   "author": "Callum Flack",
   "files": [
     "index.css",
-    "index.js",
     "lib"
   ],
   "style": "index.css",
@@ -22,29 +21,16 @@
     "type": "git",
     "url": "git://github.com/callumflack/iremono"
   },
-  "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "build": "npm run setup && npm run preprocess",
-    "build-test": "npm run setup && npm run preprocess-test",
-    "lint": "suitcss index.css build/lint.css",
-    "preprocess": "suitcss index.css build/build.css",
-    "preprocess-test": "suitcss -i test test/test.css build/test.css",
-    "setup": "npm install",
-    "watch": "npm run preprocess-test -- -w -v",
-    "css": "postcss ./index.css -o test/test.css -w",
-    "test": "npm run lint"
+  "dependencies": {
+    "normalize.css": "^8.0.0",
+    "suitcss-base": "^4.0.0"
   },
-  "dependencies": {},
   "devDependencies": {
     "cssnano": "^3.10.0",
-    "normalize.css": "^8.0.0",
     "postcss-cli": "^5.0.0",
     "postcss-cssnext": "^3.1.0",
     "postcss-custom-selectors": "^4.0.1",
     "postcss-easy-import": "^3.0.0",
-    "postcss-mixins": "^6.2.0",
-    "suitcss-base": "^4.0.0",
-    "vuepress": "^0.8.4"
+    "postcss-mixins": "^6.2.0"
   }
 }
