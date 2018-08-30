@@ -34,4 +34,4 @@ This is a work in progress. I will be actively updating it in use on current pro
 
 ## What does Iremono mean?
 
-Iremono means "vessel" or "container" in Japanese. I don't speak Japanese, but I cam across it serendipitously and I liked how it incorporates the word "mono". I wanted to create a standalone set of CSS patterns I could just drop in to any project. The name has stuck for some time.
+Iremono means "vessel" or "container" in Japanese. I don't speak Japanese, but I cam across it serendipitously and I liked how it incorporates the word "mono". I wanted to create a standalone set of CSS patterns I could just drop in to any project. So in my naive dot-connecting, a "mono vessel" sounded right. The name has stuck for some time.
