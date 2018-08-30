@@ -14,9 +14,9 @@ This is a work in progress. I will be actively updating it in use on current pro
 
 3. Then import your `variables.css` and `iremono` it to your CSS imports directory file, as described below.
 
-**Please note well:** the order of imports matters. Add your variables first, using
+**Please note well:** the order of imports matters. Add your variables first, then font-faces (if required), then `iremono`. Theme stylings should be last.
 
-```
+```css
 /* Variables */
 @import "./variables.css";
 
@@ -32,6 +32,6 @@ This is a work in progress. I will be actively updating it in use on current pro
 
 4. Finally, this postcss library makes use of `postcss-mixins`, `postcss-easy-import` and `postcss-preset-env`. I like managing their config with a `postcss.config.js` file, an example of which is provided.
 
-## WHat the hell does Iremono mean?
+## What does Iremono mean?
 
-Iremono means "vessel" or "container" in Japanese. I don't speak Japanese, but I like how it incorporates "mono". I wanted a standalone set of CSS patterns I could just drop in to any project.
+Iremono means "vessel" or "container" in Japanese. I don't speak Japanese, but I cam across it serendipitously and I liked how it incorporates the word "mono". I wanted to create a standalone set of CSS patterns I could just drop in to any project. The name has stuck for some time.
