@@ -23,7 +23,7 @@
 }
 
 .FlexGrid {
-  @mixin flexGrid 1, auto, var(--grid-gutter);
+  @mixin flexGrid 1, auto, var(--flex-grid-gutter);
 }
 
 .FlexGrid--sm {
@@ -45,7 +45,7 @@
 }
 
 .FlexGrid--noGrow {
-  @mixin flexGrid 0, auto, var(--grid-gutter);
+  @mixin flexGrid 0, auto, var(--flex-grid-gutter);
 }
 
 .FlexGrid--noGap {
