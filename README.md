@@ -24,21 +24,21 @@ This is a work in progress. I will be actively updating it in use on current pro
 /* Iremono */
 @import "iremono/index.css";
 
-/* Theme it how ever you wish */
+/* Theme your website… */
 @import "./theme/button.css";
 ```
 
-4. Finally, this postcss library makes use of `postcss-mixins`, `postcss-easy-import` and `postcss-preset-env`. I like managing their config with a `postcss.config.js` file, an example of which is provided.
+4. Finally, this postcss library makes use of `postcss-mixins`, `postcss-easy-import` and `postcss-preset-env`. I like managing their config with a `postcss.config.js` file, an example of which is provided in this repo.
 
-## Some form of documentation will be done in time
+## Documentation
 
-Suffice to say, no docs at the moment. I will, however, list a few techniques:
+Some form of documentation will be done in time. Suffice to say, no docs at the moment. the best way to check it out is to download it and have a play 🤣. I will, however, list a few techniques:
 
 1. Responsive typography using ems against a body font-size in rems, whose value is updated at media queries.
 2. Updating the value of css custom properties in media queries. Too much fun not to do.
-3. This means I can manage white space repsonsively with a single css class that holds a single custom variable. No enormous classes full of the same list of media queries everywhere.
+3. Updating custom properties in media queries means I can manage things like white space responsively with a single css class that holds a single custom variable. No enormous classes full of the same list of media queries over and over.
 4. The most used utilities are name-spaced with their type's initial letter. For example, width classes start with `n-`. Not every utility is namespaced this way as I find it too hard to remember them all.
 
 ## What does Iremono mean?
 
-Iremono means "vessel" or "container" in Japanese. I don't speak Japanese, but I cam across it serendipitously and I liked how it incorporates the word "mono". I wanted to create a standalone set of CSS patterns I could just drop in to any project. So in my naive dot-connecting, a "mono vessel" sounded right. The name has stuck for some time.
+Iremono means "vessel" or "container" in Japanese. I don't speak Japanese, but I came across it serendipitously and I liked how it incorporates the word "mono". I wanted to create a standalone set of CSS patterns I could just drop in to any project. So in my naive dot-connecting way, a "mono vessel" sounded right. The name has stuck for some time.
