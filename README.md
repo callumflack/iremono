@@ -10,9 +10,9 @@ This is a work in progress. I will be actively updating it in use on current pro
 
 1. Install: `yarn add callumflack/iremono` or `npm i callumflack/iremono`.
 
-2. Create a variables file. See `variables.example.css` for an example file listing all current css custom properties used in this library. You can customise everything in this library from this file.
+2. Create a variables file. See `variables.example.css`. This lists all the css custom properties used. You can customise everything in `iremono` from this file.
 
-3. Then import your `variables.css` and `iremono` it to your CSS imports directory file, as described below. The order of imports matters: add your variables first, then font-faces (if required), and then `iremono`. Theme stylings should be last. This way, all utilities and mixins within `iremono` will be available in your theme css as well.
+3. Import your `variables.css` and `iremono` into your CSS index file, as described below. The order of imports matters: add your variables first, then font-faces (if required), and then `iremono`. Theme stylings should be last. This way, all utilities and mixins within `iremono` will be available to use in your theme css as well.
 
 ```css
 /* Variables */
@@ -32,7 +32,7 @@ This is a work in progress. I will be actively updating it in use on current pro
 
 ## Documentation
 
-Some form of documentation will be done in time. Suffice to say, no docs at the moment. The best way to check it out is to download it and have a play 🤣. I will, however, list a few techniques:
+Some form of documentation will be done in time. The best way to check it out is to download it and have a play 🤣. Here's a few opionated techniques I've used:
 
 1. Responsive typography using ems against a body font-size in rems, whose value is updated at media queries.
 2. Updating the value of css custom properties in media queries. This means I can manage things like white space responsively with a single line of css that holds a single custom variable. No complicated and tediously managed media queries.
