@@ -32,7 +32,7 @@ This is a work in progress. I will be actively updating it in use on current pro
 
 ## Documentation
 
-Some form of documentation will be done in time. The best way to check it out is to download it and have a play 🤣. Here's a few opionated techniques I've used:
+Some form of documentation will be done in time. The best way to check it out is to download it and have a play. Here's a few opionated techniques I've used:
 
 1. Responsive typography using ems against a body font-size in rems, whose value is updated at media queries.
 2. Updating the value of css custom properties in media queries. This means I can manage things like white space responsively with a single line of css that holds a single custom variable. No complicated and tediously managed media queries.
