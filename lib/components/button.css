@@ -53,14 +53,17 @@
 }
 
 .Button {
-  &:hover {
-    box-shadow: var(--button-box-shadow-color) 0 0 0 1px;
-  }
-
   &:focus,
   &:active {
     outline: 0;
-    box-shadow: var(--button-box-shadow-color) 0 0 0 2px;
+  }
+
+  &:hover {
+    box-shadow: var(--button-box-shadow-color) 0 0 0 var(--button-box-shadow-stroke-hover);
+  }
+
+  &:focus {
+    box-shadow: var(--button-box-shadow-color) 0 0 0 var(--button-box-shadow-stroke-hover);
   }
 }
 

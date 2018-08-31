@@ -11,7 +11,7 @@ html {
   font-family: var(--ff-text), var(--ff-stack-sans);
   font-size: 16px;
   font-weight: 400;
-  letter-spacing: var(--fls-text);
+  letter-spacing: var(--fls-regular);
   line-height: var(--flh-regular);
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
