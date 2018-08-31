@@ -43,7 +43,6 @@
 @import "./lib/typography/link.css";
 @import "./lib/typography/lists.css";
 @import "./lib/typography/horizontal-rule.css";
-@import "./lib/typography/scope.css";
 
 /* Components */
 @import "./lib/components/arrow.css";
