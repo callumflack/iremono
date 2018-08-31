@@ -10,9 +10,9 @@ This is a work in progress. I will be actively updating it in use on current pro
 
 1. Install: `yarn add callumflack/iremono` or `npm i callumflack/iremono`.
 
-2. Create a variables file. You can customise everything pattern in the library there. See `variables.example.css` for an example file listing all current variables (aka css custom properties).
+2. Create a variables file. See `variables.example.css` for an example file listing all current css custom properties used in this library. You can customise everything in this library from this file.
 
-3. Then import your `variables.css` and `iremono` it to your CSS imports directory file, as described below. **note well:** the order of imports matters. Add your variables first, then font-faces (if required), and then `iremono`. Theme stylings should be last. This way, all utilities and mixins within `iremono` will be available in your theme css as well.
+3. Then import your `variables.css` and `iremono` it to your CSS imports directory file, as described below. **Note well:** the order of imports matters. Add your variables first, then font-faces (if required), and then `iremono`. Theme stylings should be last. This way, all utilities and mixins within `iremono` will be available in your theme css as well.
 
 ```css
 /* Variables */
@@ -28,16 +28,15 @@ This is a work in progress. I will be actively updating it in use on current pro
 @import "./theme/button.css";
 ```
 
-4. Finally, this postcss library makes use of `postcss-mixins`, `postcss-easy-import` and `postcss-preset-env`. I like managing their config with a `postcss.config.js` file, an example of which is provided in this repo.
+4. Finally, this postcss library makes use of `postcss-mixins`, `postcss-easy-import` and `postcss-preset-env`. Manage their config with a `postcss.config.js` file, an example of which is provided in this repo.
 
 ## Documentation
 
-Some form of documentation will be done in time. Suffice to say, no docs at the moment. the best way to check it out is to download it and have a play 🤣. I will, however, list a few techniques:
+Some form of documentation will be done in time. Suffice to say, no docs at the moment. The best way to check it out is to download it and have a play 🤣. I will, however, list a few techniques:
 
 1. Responsive typography using ems against a body font-size in rems, whose value is updated at media queries.
-2. Updating the value of css custom properties in media queries. Too much fun not to do.
-3. Updating custom properties in media queries means I can manage things like white space responsively with a single css class that holds a single custom variable. No enormous classes full of the same list of media queries over and over.
-4. The most used utilities are name-spaced with their type's initial letter. For example, width classes start with `n-`. Not every utility is namespaced this way as I find it too hard to remember them all.
+2. Updating the value of css custom properties in media queries. This means I can manage things like white space responsively with a single line of css that holds a single custom variable. No complicated and tediously managed media queries.
+3. The most used utilities are name-spaced with their type's initial letter. For example, width classes start with `w-`. But not every utility is namespaced this way. I don't want to remember too much to use the system.
 
 ## What does Iremono mean?
 
