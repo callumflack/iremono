@@ -8,7 +8,7 @@ This is a work in progress. I will be actively updating it in use on current pro
 
 ## How to use it
 
-1. Install: `yarn add` or `npm i`
+1. Install: `yarn add callumflack/iremono` or `npm i callumflack/iremono`.
 
 2. Create a variables file. You can customise everything pattern in the library there. See `variables.example.css` for an example file listing all current variables (aka css custom properties).
 
