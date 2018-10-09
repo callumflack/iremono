@@ -10,9 +10,11 @@ This is a work in progress. I will be actively updating it in use on current pro
 
 1. Install: `yarn add callumflack/iremono` or `npm i callumflack/iremono`.
 
-2. Create a variables file. See `variables.example.css`. This lists all the css custom properties used. You can customise everything in `iremono` from this file.
+2. Iremono uses postcss. Install the deps: `yarn add postcss-mixins postcss-easy-import postcss-preset-env`
 
-3. Import your `variables.css` and `iremono` into your CSS index file, as described below. The order of imports matters: add your variables first, then font-faces (if required), and then `iremono`. Theme stylings should be last. This way, all utilities and mixins within `iremono` will be available to use in your theme css as well.
+3. Create a variables file. See `variables.example.css`. This lists all the css custom properties used. You can customise everything in `iremono` from this file.
+
+4. Import your `variables.css` and `iremono` into your CSS index file, as described below. The order of imports matters: add your variables first, then font-faces (if required), and then `iremono`. Theme stylings should be last. This way, all utilities and mixins within `iremono` will be available to use in your theme css as well.
 
 ```css
 /* Variables */
