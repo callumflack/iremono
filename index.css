@@ -1,6 +1,6 @@
 /* Resets */
 @import "normalize.css";
-@import "suitcss-base/index.css";
+@import "suitcss-base";
 
 /* Utilities */
 @import "./lib/utilities/block.css";
