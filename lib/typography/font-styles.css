@@ -143,6 +143,17 @@
   font-weight: 900 !important;
 }
 
+/* 
+  Font styles
+ */
+
+.fs-normal {
+  font-style: normal !important;
+}
+.fs-italic {
+  font-style: italic !important;
+}
+
 /*
 
   Font style blocks
