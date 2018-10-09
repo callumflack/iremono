@@ -23,10 +23,9 @@
   },
   "dependencies": {
     "normalize.css": "^8.0.0",
-    "postcss": "^7.0.5",
     "postcss-easy-import": "^3.0.0",
     "postcss-mixins": "^6.2.0",
-    "postcss-preset-env": "^6.0.10",
+    "postcss-preset-env": "6.0.5",
     "suitcss-base": "^4.0.0"
   }
 }
