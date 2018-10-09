@@ -2,9 +2,6 @@
 @import "normalize.css";
 @import "suitcss-base/index.css";
 
-/* Variables */
-/* @import "./lib/variables.css"; */
-
 /* Utilities */
 @import "./lib/utilities/block.css";
 @import "./lib/utilities/color.css";
@@ -36,7 +33,6 @@
 @import "./lib/utilities/forms/text-inputs.css";
 
 /* Typography */
-/* @import "./lib/typography/font-face.css"; */
 @import "./lib/typography/font-styles.css";
 @import "./lib/typography/font-spacing.css";
 @import "./lib/typography/base.css";
