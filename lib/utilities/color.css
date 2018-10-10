@@ -75,6 +75,9 @@
 .c-block-neutral > * {
   color: var(--c-neutral) !important;
 }
+.c-block-bg > * {
+  color: var(--c-bg) !important;
+}
 .c-block-white > * {
   color: var(--c-white) !important;
 }
