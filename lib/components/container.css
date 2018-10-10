@@ -30,11 +30,15 @@
   max-width: var(--container-su);
 }
 
-.Container--inset {
+.Container--windowInset {
   max-width: 100%;
   padding: 0;
 
   @media (--sm) {
     padding: 0 3vw;
   }
+}
+
+.Container--gutterInset {
+  max-width: 100%;
 }
