@@ -28,20 +28,23 @@
  */
 
 :root {
-  --rs-space: 1.5rem;
+  --rs-space: 0.5rem;
+  --rs-block-space: 1.5rem;
   --rs-typography-space: 1rem;
 }
 
 @media (--md) {
   :root {
-    --rs-space: 3rem;
+    --rs-space: 0.75rem;
+    --rs-block-space: 3rem;
     --rs-typography-space: 1.5rem;
   }
 }
 
 @media (--lg) {
   :root {
-    --rs-space: 4rem;
+    --rs-space: 1rem;
+    --rs-block-space: 4rem;
   }
 }
 
