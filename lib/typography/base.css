@@ -6,8 +6,8 @@
 */
 
 html {
-  background-color: var(--c-bg);
-  color: var(--c-text);
+  background-color: var(--html-bg);
+  color: var(--html-c);
   font-family: var(--ff-text), var(--ff-stack-sans);
   font-size: 16px;
   font-weight: 400;
