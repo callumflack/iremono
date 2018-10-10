@@ -47,6 +47,7 @@
 @import "./lib/components/container.css";
 @import "./lib/components/cover-image.css";
 @import "./lib/components/flex-grid.css";
+@import "./lib/components/grid-extract.css";
 @import "./lib/components/image-blend.css";
 @import "./lib/components/modal.css";
 @import "./lib/components/popover.css";
