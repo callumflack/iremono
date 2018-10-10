@@ -47,34 +47,34 @@
  */
 
 .fs-text-xs {
-  font-size: var(--fs-text-xs) !important;
+  font-size: var(--rfs-text-xs) !important;
 }
 .fs-text-sm {
-  font-size: var(--fs-text-sm) !important;
+  font-size: var(--rfs-text-sm) !important;
 }
 .fs-text {
-  font-size: var(--fs-text) !important;
+  font-size: var(--rfs-text) !important;
 }
 .fs-text-md {
-  font-size: var(--fs-text-md) !important;
+  font-size: var(--rfs-text-md) !important;
 }
 .fs-text-lg {
-  font-size: var(--fs-text-lg) !important;
+  font-size: var(--rfs-text-lg) !important;
 }
 .fs-subheading {
-  font-size: var(--fs-subheading) !important;
+  font-size: var(--rfs-subheading) !important;
 }
 .fs-heading {
-  font-size: var(--fs-heading) !important;
+  font-size: var(--rfs-heading) !important;
 }
 .fs-subtitle {
-  font-size: var(--fs-subtitle) !important;
+  font-size: var(--rfs-subtitle) !important;
 }
 .fs-title {
-  font-size: var(--fs-title) !important;
+  font-size: var(--rfs-title) !important;
 }
 .fs-supertitle {
-  font-size: var(--fs-supertitle) !important;
+  font-size: var(--rfs-supertitle) !important;
 }
 
 /* 
@@ -164,7 +164,7 @@
   & > p,
   & > ul,
   & > li {
-    font-family: var(--fs-text);
+    font-family: var(--rfs-text);
   }
 }
 
@@ -172,7 +172,7 @@
   & > p,
   & > ul,
   & > li {
-    font-family: var(--fs-text-sm);
+    font-family: var(--rfs-text-sm);
   }
 }
 
@@ -180,7 +180,7 @@
   & > p,
   & > ul,
   & > li {
-    font-family: var(--fs-text-md);
+    font-family: var(--rfs-text-md);
     line-height: var(--flh-reduced);
   }
 }
@@ -189,7 +189,7 @@
   & > p,
   & > ul,
   & > li {
-    font-family: var(--fs-text-lg);
+    font-family: var(--rfs-text-lg);
     font-weight: 200;
   }
 }
