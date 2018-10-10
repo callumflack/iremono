@@ -1,3 +1,10 @@
+/* 
+
+  To customise button typography, `.Button` is set-up
+  to inherit a typographic class.
+
+ */
+
 .Button {
   align-items: center;
   background-color: var(--button-background-color);
