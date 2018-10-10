@@ -8,7 +8,7 @@
  */
 
 .b-my075 {
-  margin-top: 075alc (0.75 * var(--rs-space));
+  margin-top: calc (0.75 * var(--rs-space));
   margin-bottom: calc(0.75 * var(--rs-space));
 }
 .b-my1 {
@@ -57,7 +57,7 @@
  */
 
 .b-py075 {
-  padding-top: 075alc (0.75 * var(--rs-space));
+  padding-top: calc (0.75 * var(--rs-space));
   padding-bottom: calc(0.75 * var(--rs-space));
 }
 .b-py1 {
