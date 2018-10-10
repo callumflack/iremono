@@ -3,7 +3,6 @@
 @import "suitcss-base";
 
 /* Utilities */
-@import "./lib/utilities/block.css";
 @import "./lib/utilities/color.css";
 @import "./lib/utilities/controls.css";
 @import "./lib/utilities/display.css";
@@ -14,8 +13,8 @@
 @import "./lib/utilities/link.css";
 @import "./lib/utilities/media.css";
 @import "./lib/utilities/position.css";
-@import "./lib/utilities/spacing.css";
-@import "./lib/utilities/spacing-responsive.css";
+@import "./lib/utilities/responsive-block.css";
+@import "./lib/utilities/responsive-spacing.css";
 @import "./lib/utilities/text.css";
 @import "./lib/utilities/width.css";
 @import "./lib/utilities/zindex.css";

@@ -1,37 +1,4 @@
 /* 
-
-  Responsive typography with ems.
-
-  The maths:
-
-  <desired-pt-size>/<text-unit>/16 * 16
-  48/19/16 * 16 = 2.526315789
-
-  <text-unit> * 16 * 1
-  1.1875 * 16 * 1 = 19pt
-
-  Applied to first child of <nuxt>.
-
-*/
-
-.fs-scale-reset {
-  font-size: var(--rfs-0) !important;
-
-  @media (--sm) {
-    font-size: var(--rfs-1) !important;
-  }
-  @media (--md) {
-    font-size: var(--rfs-2) !important;
-  }
-  @media (--md-landscape) {
-    font-size: var(--rfs-3) !important;
-  }
-  @media (--lg) {
-    font-size: var(--rfs-4) !important;
-  }
-}
-
-/* 
   Font families
  */
 
