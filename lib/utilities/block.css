@@ -8,46 +8,46 @@
  */
 
 .b-my075 {
-  margin-top: calc(0.75 * var(--rs-space));
-  margin-bottom: calc(0.75 * var(--rs-space));
+  margin-top: calc(0.75 * var(--rs-block-space));
+  margin-bottom: calc(0.75 * var(--rs-block-space));
 }
 .b-my1 {
-  margin-top: var(--rs-space);
-  margin-bottom: var(--rs-space);
+  margin-top: var(--rs-block-space);
+  margin-bottom: var(--rs-block-space);
 }
 .b-my2 {
-  margin-top: calc(2 * var(--rs-space));
-  margin-bottom: calc(2 * var(--rs-space));
+  margin-top: calc(2 * var(--rs-block-space));
+  margin-bottom: calc(2 * var(--rs-block-space));
 }
 .b-my3 {
-  margin-top: calc(3 * var(--rs-space));
-  margin-bottom: calc(3 * var(--rs-space));
+  margin-top: calc(3 * var(--rs-block-space));
+  margin-bottom: calc(3 * var(--rs-block-space));
 }
 
 .b-mt075 {
-  margin-top: calc(0.75 * var(--rs-space));
+  margin-top: calc(0.75 * var(--rs-block-space));
 }
 .b-mt1 {
-  margin-top: var(--rs-space);
+  margin-top: var(--rs-block-space);
 }
 .b-mt2 {
-  margin-top: calc(2 * var(--rs-space));
+  margin-top: calc(2 * var(--rs-block-space));
 }
 .b-mt3 {
-  margin-top: calc(3 * var(--rs-space));
+  margin-top: calc(3 * var(--rs-block-space));
 }
 
 .b-mb075 {
-  margin-bottom: calc(0.75 * var(--rs-space));
+  margin-bottom: calc(0.75 * var(--rs-block-space));
 }
 .b-mb1 {
-  margin-bottom: var(--rs-space);
+  margin-bottom: var(--rs-block-space);
 }
 .b-mb2 {
-  margin-bottom: calc(2 * var(--rs-space));
+  margin-bottom: calc(2 * var(--rs-block-space));
 }
 .b-mb3 {
-  margin-bottom: calc(3 * var(--rs-space));
+  margin-bottom: calc(3 * var(--rs-block-space));
 }
 
 /* 
@@ -57,44 +57,44 @@
  */
 
 .b-py075 {
-  padding-top: calc(0.75 * var(--rs-space));
-  padding-bottom: calc(0.75 * var(--rs-space));
+  padding-top: calc(0.75 * var(--rs-block-space));
+  padding-bottom: calc(0.75 * var(--rs-block-space));
 }
 .b-py1 {
-  padding-top: var(--rs-space);
-  padding-bottom: var(--rs-space);
+  padding-top: var(--rs-block-space);
+  padding-bottom: var(--rs-block-space);
 }
 .b-py2 {
-  padding-top: calc(2 * var(--rs-space));
-  padding-bottom: calc(2 * var(--rs-space));
+  padding-top: calc(2 * var(--rs-block-space));
+  padding-bottom: calc(2 * var(--rs-block-space));
 }
 .b-py3 {
-  padding-top: calc(3 * var(--rs-space));
-  padding-bottom: calc(3 * var(--rs-space));
+  padding-top: calc(3 * var(--rs-block-space));
+  padding-bottom: calc(3 * var(--rs-block-space));
 }
 
 .b-pt075 {
-  padding-top: calc(0.75 * var(--rs-space));
+  padding-top: calc(0.75 * var(--rs-block-space));
 }
 .b-pt1 {
-  padding-top: var(--rs-space);
+  padding-top: var(--rs-block-space);
 }
 .b-pt2 {
-  padding-top: calc(2 * var(--rs-space));
+  padding-top: calc(2 * var(--rs-block-space));
 }
 .b-pt3 {
-  padding-top: calc(3 * var(--rs-space));
+  padding-top: calc(3 * var(--rs-block-space));
 }
 
 .b-pb075 {
-  padding-bottom: calc(0.75 * var(--rs-space));
+  padding-bottom: calc(0.75 * var(--rs-block-space));
 }
 .b-pb1 {
-  padding-bottom: var(--rs-space);
+  padding-bottom: var(--rs-block-space);
 }
 .b-pb2 {
-  padding-bottom: calc(2 * var(--rs-space));
+  padding-bottom: calc(2 * var(--rs-block-space));
 }
 .b-pb3 {
-  padding-bottom: calc(3 * var(--rs-space));
+  padding-bottom: calc(3 * var(--rs-block-space));
 }
