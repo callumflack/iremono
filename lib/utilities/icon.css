@@ -1,6 +1,9 @@
 /*
 
   SVG icon
+  Scaling is done either responsively per component css,
+  or with a Vue attribute.
+  See more: https://css-tricks.com/scale-svg/ 
 
  */
 
@@ -28,52 +31,6 @@
   }
 }
 
-/* 
-
-  SVG icon: theme & scaling
-  https://css-tricks.com/scale-svg/ 
-
-*/
-
-.u-icon--close {
-  cursor: pointer;
-  height: 19px;
-  margin-top: 12px;
-  width: 19px;
-}
-
-.u-icon--tiny,
-.u-icon--tiny svg {
-  height: 0.75em;
-  width: 0.75em;
-}
-
-.u-icon--sm,
-.u-icon--sm svg {
-  height: 1rem;
-  width: 1rem;
-}
-
-.u-icon--sm {
-  // transform: translateY(2px);
-}
-
-.u-icon--md,
-.u-icon--md svg {
-  height: 1.875rem;
-  width: 1.875rem;
-}
-
-.u-icon-toggle svg {
-  height: 1.5em;
-  width: 1.5em;
-
-  @media (--md) {
-    height: 2rem;
-    width: 2rem;
-  }
-}
-
 /*
 
   Target blank icon
@@ -96,4 +53,11 @@
   vertical-align: top;
   right: -1em;
   top: 0.25em;
+}
+
+.icon-targetBlank--withinButton:after {
+  font-size: 100%;
+  position: relative;
+  right: -0.125em;
+  top: -0.125em;
 }
