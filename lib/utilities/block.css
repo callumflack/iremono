@@ -8,46 +8,46 @@
  */
 
 .b-my075 {
-  margin-top: 075alc (0.75 * var(--responsive-space));
-  margin-bottom: calc(0.75 * var(--responsive-space));
+  margin-top: 075alc (0.75 * var(--rs-space));
+  margin-bottom: calc(0.75 * var(--rs-space));
 }
 .b-my1 {
-  margin-top: var(--responsive-space);
-  margin-bottom: var(--responsive-space);
+  margin-top: var(--rs-space);
+  margin-bottom: var(--rs-space);
 }
 .b-my2 {
-  margin-top: calc(2 * var(--responsive-space));
-  margin-bottom: calc(2 * var(--responsive-space));
+  margin-top: calc(2 * var(--rs-space));
+  margin-bottom: calc(2 * var(--rs-space));
 }
 .b-my3 {
-  margin-top: calc(3 * var(--responsive-space));
-  margin-bottom: calc(3 * var(--responsive-space));
+  margin-top: calc(3 * var(--rs-space));
+  margin-bottom: calc(3 * var(--rs-space));
 }
 
 .b-mt075 {
-  margin-top: calc(0.75 * var(--responsive-space));
+  margin-top: calc(0.75 * var(--rs-space));
 }
 .b-mt1 {
-  margin-top: var(--responsive-space);
+  margin-top: var(--rs-space);
 }
 .b-mt2 {
-  margin-top: calc(2 * var(--responsive-space));
+  margin-top: calc(2 * var(--rs-space));
 }
 .b-mt3 {
-  margin-top: calc(3 * var(--responsive-space));
+  margin-top: calc(3 * var(--rs-space));
 }
 
 .b-mb075 {
-  margin-bottom: calc(0.75 * var(--responsive-space));
+  margin-bottom: calc(0.75 * var(--rs-space));
 }
 .b-mb1 {
-  margin-bottom: var(--responsive-space);
+  margin-bottom: var(--rs-space);
 }
 .b-mb2 {
-  margin-bottom: calc(2 * var(--responsive-space));
+  margin-bottom: calc(2 * var(--rs-space));
 }
 .b-mb3 {
-  margin-bottom: calc(3 * var(--responsive-space));
+  margin-bottom: calc(3 * var(--rs-space));
 }
 
 /* 
@@ -57,44 +57,44 @@
  */
 
 .b-py075 {
-  padding-top: 075alc (0.75 * var(--responsive-space));
-  padding-bottom: calc(0.75 * var(--responsive-space));
+  padding-top: 075alc (0.75 * var(--rs-space));
+  padding-bottom: calc(0.75 * var(--rs-space));
 }
 .b-py1 {
-  padding-top: var(--responsive-space);
-  padding-bottom: var(--responsive-space);
+  padding-top: var(--rs-space);
+  padding-bottom: var(--rs-space);
 }
 .b-py2 {
-  padding-top: calc(2 * var(--responsive-space));
-  padding-bottom: calc(2 * var(--responsive-space));
+  padding-top: calc(2 * var(--rs-space));
+  padding-bottom: calc(2 * var(--rs-space));
 }
 .b-py3 {
-  padding-top: calc(3 * var(--responsive-space));
-  padding-bottom: calc(3 * var(--responsive-space));
+  padding-top: calc(3 * var(--rs-space));
+  padding-bottom: calc(3 * var(--rs-space));
 }
 
 .b-pt075 {
-  padding-top: calc(0.75 * var(--responsive-space));
+  padding-top: calc(0.75 * var(--rs-space));
 }
 .b-pt1 {
-  padding-top: var(--responsive-space);
+  padding-top: var(--rs-space);
 }
 .b-pt2 {
-  padding-top: calc(2 * var(--responsive-space));
+  padding-top: calc(2 * var(--rs-space));
 }
 .b-pt3 {
-  padding-top: calc(3 * var(--responsive-space));
+  padding-top: calc(3 * var(--rs-space));
 }
 
 .b-pb075 {
-  padding-bottom: calc(0.75 * var(--responsive-space));
+  padding-bottom: calc(0.75 * var(--rs-space));
 }
 .b-pb1 {
-  padding-bottom: var(--responsive-space);
+  padding-bottom: var(--rs-space);
 }
 .b-pb2 {
-  padding-bottom: calc(2 * var(--responsive-space));
+  padding-bottom: calc(2 * var(--rs-space));
 }
 .b-pb3 {
-  padding-bottom: calc(3 * var(--responsive-space));
+  padding-bottom: calc(3 * var(--rs-space));
 }
