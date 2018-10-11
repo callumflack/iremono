@@ -17,13 +17,11 @@
 .u-icon {
   display: inline-block;
   fill: currentColor;
-  /* height: 1.5rem; */
   line-height: 1;
   max-width: 100%;
   position: relative;
   text-align: center;
   user-select: none;
-  /* width: 1.5rem; */
 
   & > svg {
     fill: currentColor;
@@ -37,11 +35,11 @@
 
  */
 
-.icon-targetblank {
+.icon-targetBlank {
   position: relative;
 }
 
-.icon-targetblank:after {
+.icon-targetBlank:after {
   content: "\2192";
   display: inline-block;
   font-family: var(--ff-stack-sans);
