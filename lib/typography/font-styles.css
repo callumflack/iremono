@@ -82,31 +82,31 @@
   Font weights
  */
 
-.fw-hairline {
+.fw-100 {
   font-weight: 100 !important;
 }
-.fw-thin {
+.fw-200 {
   font-weight: 200 !important;
 }
-.fw-light {
+.fw-300 {
   font-weight: 300 !important;
 }
-.fw-regular {
+.fw-400 {
   font-weight: 400 !important;
 }
-.fw-medium {
+.fw-500 {
   font-weight: 500 !important;
 }
-.fw-semibold {
+.fw-600 {
   font-weight: 600 !important;
 }
-.fw-bold {
+.fw-700 {
   font-weight: 700 !important;
 }
-.fw-heavy {
+.fw-800 {
   font-weight: 800 !important;
 }
-.fw-black {
+.fw-900 {
   font-weight: 900 !important;
 }
 
