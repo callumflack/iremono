@@ -22,6 +22,9 @@
 .c-text {
   color: var(--c-text) !important;
 }
+.c-text-mid {
+  color: var(--c-text-mid) !important;
+}
 .c-text-light {
   color: var(--c-text-light) !important;
 }
