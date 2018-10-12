@@ -187,8 +187,7 @@
 
 */
 
-/* @media (--sm) { */
-@media (min-width: 512px) {
+@media (--sm) {
   .f-sm {
     display: flex !important;
   }
@@ -215,8 +214,7 @@
   }
 }
 
-/* @media (--lg) { */
-@media (min-width: 1280px) {
+@media (--lg) {
   .f-lg {
     display: flex !important;
   }
