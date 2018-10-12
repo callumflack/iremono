@@ -26,6 +26,22 @@
   @mixin flexGrid 1, auto, var(--flex-grid-gutter);
 }
 
+/* 
+
+  A wrapper is required to handle the edge of the DOM window, 
+  if no other parent div. 
+
+*/
+
+.ehb-FlexGridWrapper {
+  @media (--sm) {
+    margin-right: calc(0.5 * var(--grid-gutter));
+    margin-left: calc(0.5 * var(--grid-gutter));
+  }
+}
+
+/* customisation examples */
+
 .FlexGrid--sm {
   @mixin flexGrid 1, auto, var(--s-2);
 }
@@ -50,4 +66,8 @@
 
 .FlexGrid--noGap {
   @mixin flexGrid 1, auto, 0;
+}
+
+.mo-FlexGrid--retainGrid {
+  flex-direction: row !important;
 }
