@@ -15,12 +15,12 @@
   padding-bottom: calc(100% / 3);
 }
 
-.AspectRatio--2x1 {
-  padding-bottom: 50%;
-}
-
 .AspectRatio--10x4 {
   padding-bottom: 40%;
+}
+
+.AspectRatio--2x1 {
+  padding-bottom: 50%;
 }
 
 .AspectRatio--16x9 {
