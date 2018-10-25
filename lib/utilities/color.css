@@ -75,6 +75,9 @@
 .c-block-text-light > * {
   color: var(--c-text-light) !important;
 }
+.c-block-text-mid > * {
+  color: var(--c-text-mid) !important;
+}
 .c-block-neutral > * {
   color: var(--c-neutral) !important;
 }
