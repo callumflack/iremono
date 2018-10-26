@@ -214,6 +214,33 @@
   }
 }
 
+@media (--md) {
+  .f-md {
+    display: flex !important;
+  }
+  .f-md-row {
+    flex-direction: row !important;
+  }
+  .f-md-col {
+    flex-direction: column !important;
+  }
+  .f-md-justifyStart {
+    justify-content: flex-start !important;
+  }
+  .f-md-justifyEnd {
+    justify-content: flex-end !important;
+  }
+  .f-md-justifyCenter {
+    justify-content: center !important;
+  }
+  .f-md-justifyBetween {
+    justify-content: space-between !important;
+  }
+  .f-md-justifyAround {
+    justify-content: space-around !important;
+  }
+}
+
 @media (--lg) {
   .f-lg {
     display: flex !important;
