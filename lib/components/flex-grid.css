@@ -38,7 +38,7 @@
 
 /* customisation examples */
 
-.FlexGrid--noGap {
+.FlexGrid--noGutter {
   --flex-grid-gutter: 0;
 }
 
