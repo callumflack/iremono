@@ -212,6 +212,15 @@
   .f-mo-justifyAround {
     justify-content: space-around !important;
   }
+  .f-mo-orderFirst {
+    order: -1 !important;
+  }
+  .f-mo-orderLast {
+    order: 1 !important;
+  }
+  .f-mo-orderNone {
+    order: 0 !important;
+  }
 }
 
 @media (--sm) {
@@ -238,6 +247,15 @@
   }
   .f-sm-justifyAround {
     justify-content: space-around !important;
+  }
+  .f-sm-orderFirst {
+    order: -1 !important;
+  }
+  .f-sm-orderLast {
+    order: 1 !important;
+  }
+  .f-sm-orderNone {
+    order: 0 !important;
   }
 }
 
@@ -266,6 +284,15 @@
   .f-md-justifyAround {
     justify-content: space-around !important;
   }
+  .f-md-orderFirst {
+    order: -1 !important;
+  }
+  .f-md-orderLast {
+    order: 1 !important;
+  }
+  .f-md-orderNone {
+    order: 0 !important;
+  }
 }
 
 @media (--mdl) {
@@ -292,6 +319,15 @@
   }
   .f-mdl-justifyAround {
     justify-content: space-around !important;
+  }
+  .f-mdl-orderFirst {
+    order: -1 !important;
+  }
+  .f-mdl-orderLast {
+    order: 1 !important;
+  }
+  .f-mdl-orderNone {
+    order: 0 !important;
   }
 }
 
@@ -320,6 +356,15 @@
   .f-lg-justifyAround {
     justify-content: space-around !important;
   }
+  .f-lg-orderFirst {
+    order: -1 !important;
+  }
+  .f-lg-orderLast {
+    order: 1 !important;
+  }
+  .f-lg-orderNone {
+    order: 0 !important;
+  }
 }
 
 @media (--xl) {
@@ -346,5 +391,14 @@
   }
   .f-xl-justifyAround {
     justify-content: space-around !important;
+  }
+  .f-xl-orderFirst {
+    order: -1 !important;
+  }
+  .f-xl-orderLast {
+    order: 1 !important;
+  }
+  .f-xl-orderNone {
+    order: 0 !important;
   }
 }
