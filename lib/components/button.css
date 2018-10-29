@@ -21,8 +21,7 @@
   height: var(--button-height);
   justify-content: center;
   margin: 0;
-  padding-left: var(--button-xpadding);
-  padding-right: var(--button-xpadding);
+  padding: 0 var(--button-xpadding);
   position: relative;
   text-decoration: none;
   text-transform: var(--button-font-case);
