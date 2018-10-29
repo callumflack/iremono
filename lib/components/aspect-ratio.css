@@ -30,6 +30,7 @@
 
 .AspectRatio--6x4 {
   padding-bottom: 66.6%;
+  padding-bottom: calc(4 / 6 * 100%);
 }
 
 .AspectRatio--8x5 {

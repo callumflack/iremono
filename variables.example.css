@@ -108,6 +108,8 @@
   --s-6: 8rem;
   --s-7: 16rem;
 
+  --s-paragraph: calc(1.25 * var(--rs-space));
+
   /* 
   
     Fonts
