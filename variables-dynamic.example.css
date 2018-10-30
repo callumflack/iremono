@@ -84,7 +84,7 @@
     --rfs-supertitle: 48px;
   }
 }
-@media (--md-landscape) {
+@media (--mdl) {
   :root {
     --rfs-title: 36px;
     --rfs-supertitle: 60px;
