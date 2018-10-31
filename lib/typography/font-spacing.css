@@ -29,8 +29,8 @@ figure {
 }
 
 blockquote {
-  margin-top: calc(1.5 * var(--s-paragraph));
-  margin-bottom: calc(1.5 * var(--s-paragraph));
+  margin-top: calc(1.15 * var(--s-paragraph));
+  margin-bottom: calc(1.15 * var(--s-paragraph));
 }
 
 /*
