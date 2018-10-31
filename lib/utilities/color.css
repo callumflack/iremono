@@ -49,6 +49,9 @@
 .c-white {
   color: white !important;
 }
+.c-transparent {
+  color: transparent !important;
+}
 .c-success {
   color: var(--c-success) !important;
 }
@@ -141,6 +144,9 @@
 }
 .bg-white {
   background-color: white !important;
+}
+.bg-transparent {
+  background-color: transparent !important;
 }
 .bg-success {
   background-color: var(--c-success) !important;
