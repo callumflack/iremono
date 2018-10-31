@@ -110,6 +110,7 @@
 
   --s-paragraph: calc(1.25 * var(--rs-space));
   --s-headline: calc(2 * var(--paragraph));
+  --s-blockquote: calc(1.1 * var(--paragraph));
 
   /* 
   
