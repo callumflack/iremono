@@ -259,6 +259,7 @@
   --horizontal-rule-color: var(--c-rule);
   --horizontal-rule-space: calc(0.5 * var(--space));
   --inline-block-children-space: calc(1.25 * var(--s-3));
+  --list-inset-padding: calc(2 * var(--rs-space));
   --progress-height: 32px;
   --text-link-decoration: none;
 
