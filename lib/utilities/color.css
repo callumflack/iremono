@@ -16,6 +16,9 @@
 .c-brand-lowlight {
   color: var(--c-brand-lowlight) !important;
 }
+.c-link {
+  color: var(--c-link) !important;
+}
 .c-black {
   color: black !important;
 }
