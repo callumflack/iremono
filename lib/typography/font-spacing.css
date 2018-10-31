@@ -53,7 +53,7 @@ button + button,
 .Subtitle,
 .Title,
 .Supertitle {
-  margin-bottom: calc(1 * var(--s-paragraph));
+  margin-bottom: var(--s-paragraph);
 
   &:last-child {
     margin-bottom: 0;
@@ -65,6 +65,6 @@ button + button,
 .Scope-post h4,
 .HeadingSpace {
   &:not(:first-child) {
-    margin-top: calc(2 * var(--s-paragraph));
+    margin-top: var(--s-headline);
   }
 }
