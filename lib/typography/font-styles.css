@@ -131,7 +131,7 @@
   & > p,
   & > ul,
   & > li {
-    font-family: var(--rfs-text);
+    font-size: var(--rfs-text);
   }
 }
 
@@ -139,7 +139,7 @@
   & > p,
   & > ul,
   & > li {
-    font-family: var(--rfs-text-sm);
+    font-size: var(--rfs-text-sm);
   }
 }
 
@@ -147,7 +147,7 @@
   & > p,
   & > ul,
   & > li {
-    font-family: var(--rfs-text-md);
+    font-size: var(--rfs-text-md);
     line-height: var(--flh-reduced);
   }
 }
@@ -156,7 +156,7 @@
   & > p,
   & > ul,
   & > li {
-    font-family: var(--rfs-text-lg);
+    font-size: var(--rfs-text-lg);
     font-weight: 200;
   }
 }
