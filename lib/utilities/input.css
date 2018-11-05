@@ -16,7 +16,7 @@
   border: 1px solid var(--input-border-color);
   border-radius: var(--input-border-radius);
   background-color: var(--input-bg-color);
-  /* font-family: inherit; */
+  font-family: inherit;
   font-size: inherit;
   font-weight: inherit;
   line-height: inherit;
@@ -25,10 +25,17 @@
     color var(--transition-speed) var(--transition-easing),
     background-color var(--transition-speed, 0.1s) var(--transition-easing);
 
+  &::placeholder {
+    color: var(--c-gray);
+  }
+
   &:hover {
     border-color: var(--input-border-color-hover);
     background-color: var(--input-bg-color-hover);
     color: var(--input-text-color-hover);
+    &::placeholder {
+      color: var(--c-gray);
+    }
   }
 
   &:focus {
@@ -36,18 +43,18 @@
     background-color: var(--input-bg-color-focus);
     box-shadow: 0 0 0 0.2rem var(--input-box-shadow-focus);
     color: var(--c-text-color-focus);
-    /* &::placeholder {
+    &::placeholder {
       color: var(--c-gray);
-    } */
+    }
   }
 
   :--not-writable {
     border-color: var(--input-notwriteable-border-color);
     background-color: var(--input-notwriteable-bg-color);
     color: var(--input-notwriteable-text-color);
-    /* &::placeholder {
+    &::placeholder {
       color: var(--c-gray);
-    } */
+    }
   }
 
   &:disabled {
@@ -55,7 +62,7 @@
   }
 
   &:required:invalid {
-    /* border-color: var(--c-danger); */
+    border-color: var(--c-danger);
   }
 
   &:required:valid {
