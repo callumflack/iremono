@@ -128,34 +128,26 @@
  */
 
 .fs-block {
-  & > p,
-  & > ul,
-  & > li {
+  & > * {
     font-size: var(--rfs-text);
   }
 }
 
 .fs-block-sm {
-  & > p,
-  & > ul,
-  & > li {
+  & > * {
     font-size: var(--rfs-text-sm);
   }
 }
 
 .fs-block-md {
-  & > p,
-  & > ul,
-  & > li {
+  & > * {
     font-size: var(--rfs-text-md);
     line-height: var(--flh-reduced);
   }
 }
 
 .fs-block-lg {
-  & > p,
-  & > ul,
-  & > li {
+  & > * {
     font-size: var(--rfs-text-lg);
     font-weight: 200;
   }
