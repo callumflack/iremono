@@ -16,16 +16,16 @@
   border: 1px solid var(--input-border-color);
   border-radius: var(--input-border-radius);
   background-color: var(--input-bg-color);
-  font-family: inherit;
+  /* font-family: inherit;
   font-size: inherit;
   font-weight: inherit;
-  line-height: inherit;
+  line-height: inherit; */
   color: var(--input-text-color);
   transition: border-color var(--transition-speed, 0.1s) var(--transition-easing),
     color var(--transition-speed) var(--transition-easing),
     background-color var(--transition-speed, 0.1s) var(--transition-easing);
 
-  &::placeholder {
+  &:placeholder {
     color: var(--c-gray);
   }
 
@@ -33,7 +33,7 @@
     border-color: var(--input-border-color-hover);
     background-color: var(--input-bg-color-hover);
     color: var(--input-text-color-hover);
-    &::placeholder {
+    &:placeholder {
       color: var(--c-gray);
     }
   }
@@ -43,7 +43,7 @@
     background-color: var(--input-bg-color-focus);
     box-shadow: 0 0 0 0.2rem var(--input-box-shadow-focus);
     color: var(--c-text-color-focus);
-    &::placeholder {
+    &:placeholder {
       color: var(--c-gray);
     }
   }
@@ -52,7 +52,7 @@
     border-color: var(--input-notwriteable-border-color);
     background-color: var(--input-notwriteable-bg-color);
     color: var(--input-notwriteable-text-color);
-    &::placeholder {
+    &:placeholder {
       color: var(--c-gray);
     }
   }
