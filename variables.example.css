@@ -300,7 +300,7 @@
 
   --field-height: 3rem;
   --field-space: 1rem 1.25rem;
-  --field-xpadding: 0.5em;
+  --field-padding-x: 0.5em;
   --input-border-color: var(--c-brand-rule);
   --input-border-color-hover: var(--c-brand-rule);
   --input-border-color-focus: var(--c-brand-rule);
@@ -315,8 +315,8 @@
   --input-text-color: var(--c-brand);
   --input-text-color-hover: var(--c-brand);
   --input-text-color-focus: var(--c-brand);
-  --textarea-padding-vertical: 0.5em;
-  --textarea-padding-horizontal: 0.75em;
+  --textarea-padding-x: var(--field-padding-x);
+  --textarea-padding-y: 0.75em;
 
   /* 
 

@@ -19,7 +19,7 @@
   display: block;
   width: 100%;
   height: var(--field-height);
-  padding: 0 var(--field-xpadding);
+  padding: 0 var(--field-padding-x);
 }
 
 /*
