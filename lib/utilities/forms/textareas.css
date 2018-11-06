@@ -7,6 +7,6 @@ textarea {
   height: auto;
   overflow: auto;
   margin: 0;
-  padding: var(--hiq-textarea-padding-vertical, 0.5rem) var(--hiq-textarea-padding-horizontal, 0.75rem);
+  padding: var(--textarea-padding-vertical) var(--textarea-padding-horizontal);
   resize: vertical;
 }
