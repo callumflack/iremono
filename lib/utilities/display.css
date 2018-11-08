@@ -140,6 +140,24 @@
   }
 }
 
+@media (--mdl) {
+  .u-mdl-hidden {
+    display: none !important;
+  }
+
+  .u-mdl-block {
+    display: block !important;
+  }
+
+  .u-mdl-flex {
+    display: flex !important;
+  }
+
+  .u-mdl-inlineChildrenBlock {
+    @mixin InlineBlockChildren;
+  }
+}
+
 @media (--lg) {
   .u-lg-hidden {
     display: none !important;
