@@ -34,15 +34,17 @@ body {
 p,
 ul,
 ol,
-li,
-em,
-strong {
+li {
   font-style: normal;
 }
 
 em,
 strong {
   font-weight: inherit;
+}
+
+em {
+  font-style: italic;
 }
 
 h1,
