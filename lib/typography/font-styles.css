@@ -127,15 +127,21 @@
 
  */
 
-.fs-block {
+.fs-block-xs {
   & > * {
-    font-size: var(--rfs-text);
+    font-size: var(--rfs-text-xs);
   }
 }
 
 .fs-block-sm {
   & > * {
     font-size: var(--rfs-text-sm);
+  }
+}
+
+.fs-block {
+  & > * {
+    font-size: var(--rfs-text);
   }
 }
 
