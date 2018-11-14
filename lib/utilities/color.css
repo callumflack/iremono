@@ -118,11 +118,17 @@
 .bg-text {
   background-color: var(--c-text) !important;
 }
+.bg-text-mid {
+  background-color: var(--c-text-mid) !important;
+}
 .bg-text-light {
   background-color: var(--c-text-light) !important;
 }
 .bg-gray {
   background-color: var(--c-gray) !important;
+}
+.bg-muted {
+  background-color: var(--c-muted) !important;
 }
 .bg-rule {
   background-color: var(--c-rule) !important;
