@@ -1,6 +1,6 @@
 ul,
 ol {
-  list-style-type: square;
+  list-style-type: var(--list-style-type);
   padding-left: var(--list-inset-padding);
 
   & ol,
