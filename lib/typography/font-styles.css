@@ -54,6 +54,9 @@
 .flh-tight {
   line-height: var(--flh-tight) !important;
 }
+.flh-touch {
+  line-height: var(--flh-touch) !important;
+}
 .flh-reduced {
   line-height: var(--flh-reduced) !important;
 }
