@@ -23,6 +23,10 @@
   margin-top: calc(2 * var(--rs-block-space));
   margin-bottom: calc(2 * var(--rs-block-space));
 }
+.b-my15 {
+  margin-top: calc(1.5 * var(--rs-block-space));
+  margin-bottom: calc(1.5 * var(--rs-block-space));
+}
 .b-my3 {
   margin-top: calc(3 * var(--rs-block-space));
   margin-bottom: calc(3 * var(--rs-block-space));
@@ -44,6 +48,9 @@
 .b-mt2 {
   margin-top: calc(2 * var(--rs-block-space));
 }
+.b-mt15 {
+  margin-top: calc(1.5 * var(--rs-block-space));
+}
 .b-mt3 {
   margin-top: calc(3 * var(--rs-block-space));
 }
@@ -62,6 +69,9 @@
 }
 .b-mb2 {
   margin-bottom: calc(2 * var(--rs-block-space));
+}
+.b-mb15 {
+  margin-bottom: calc(1.5 * var(--rs-block-space));
 }
 .b-mb3 {
   margin-bottom: calc(3 * var(--rs-block-space));
@@ -88,6 +98,10 @@
   padding-top: var(--rs-block-space);
   padding-bottom: var(--rs-block-space);
 }
+.b-py15 {
+  padding-top: calc(1.5 * var(--rs-block-space));
+  padding-bottom: calc(1.5 * var(--rs-block-space));
+}
 .b-py2 {
   padding-top: calc(2 * var(--rs-block-space));
   padding-bottom: calc(2 * var(--rs-block-space));
@@ -110,6 +124,9 @@
 .b-pt1 {
   padding-top: var(--rs-block-space);
 }
+.b-pt15 {
+  padding-top: calc(1.5 * var(--rs-block-space));
+}
 .b-pt2 {
   padding-top: calc(2 * var(--rs-block-space));
 }
@@ -128,6 +145,9 @@
 }
 .b-pb1 {
   padding-bottom: var(--rs-block-space);
+}
+.b-pb15 {
+  padding-bottom: calc(1.5 * var(--rs-block-space));
 }
 .b-pb2 {
   padding-bottom: calc(2 * var(--rs-block-space));
