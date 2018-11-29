@@ -300,7 +300,6 @@
    */
 
   --field-height: 3rem;
-  --field-space: 1rem 1.25rem;
   --field-padding-x: 0.5em;
   --input-border-color: var(--c-brand-rule);
   --input-border-color-hover: var(--c-brand-rule);
