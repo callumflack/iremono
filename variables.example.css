@@ -283,7 +283,7 @@
   --button-disabled-opacity: 0.6;
   --button-height: calc(1 * var(--field-height));
   --button-inline-spacing: 0;
-  --button-xpadding: 1.5em;
+  --button-padding-x: 1.5em;
 
   /* typography */
   --button-font-case: uppercase;

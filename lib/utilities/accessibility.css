@@ -1,0 +1,10 @@
+/* https://twitter.com/AllThingsSmitty/status/1044218692236713986 */
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  box-shadow: none;
+  outline: #000 dotted 2px;
+  outline-offset: 0.05em;
+}
