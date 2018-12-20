@@ -46,7 +46,6 @@
   font-weight: 400;
   font-size: 60%;
   position: absolute;
-  -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   vertical-align: top;
   right: -1em;
