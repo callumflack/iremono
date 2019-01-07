@@ -14,8 +14,12 @@
   background-color: $color;
 }
 
-.c-imageBlend {
+.bg-image-blend {
   @mixin imageBlend;
+}
+
+.image-multiply {
+  mix-blend-mode: multiply;
 }
 
 /*
