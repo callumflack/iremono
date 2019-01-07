@@ -43,11 +43,11 @@
 }
 
 .FlexGrid--sm {
-  --flex-grid-gutter: var(--s-2);
+  --flex-grid-gutter: var(--flex-grid-gutter-sm);
 }
 
 .FlexGrid--lg {
-  --flex-grid-gutter: 3vw;
+  --flex-grid-gutter: var(--flex-grid-gutter-lg);
 }
 
 .FlexGrid--noGrow > * {
