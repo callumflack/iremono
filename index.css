@@ -27,20 +27,6 @@
 @import "./lib/typography/lists.css";
 @import "./lib/typography/horizontal-rule.css";
 
-/* Components */
-@import "./lib/components/arrow.css";
-@import "./lib/components/aspect-ratio.css";
-@import "./lib/components/button.css";
-@import "./lib/components/container.css";
-@import "./lib/components/cover-image.css";
-@import "./lib/components/flex-grid.css";
-@import "./lib/components/grid-extract.css";
-@import "./lib/components/gutter-inset.css";
-@import "./lib/components/image-blend.css";
-@import "./lib/components/modal.css";
-@import "./lib/components/object-fit.css";
-@import "./lib/components/popover.css";
-
 /* Utilities override */
 @import "./lib/utilities/color.css";
 @import "./lib/utilities/display.css";
@@ -56,3 +42,17 @@
 @import "./lib/utilities/text.css";
 @import "./lib/utilities/width.css";
 @import "./lib/utilities/zindex.css";
+
+/* Components */
+@import "./lib/components/arrow.css";
+@import "./lib/components/aspect-ratio.css";
+@import "./lib/components/button.css";
+@import "./lib/components/container.css";
+@import "./lib/components/cover-image.css";
+@import "./lib/components/flex-grid.css";
+@import "./lib/components/grid-extract.css";
+@import "./lib/components/gutter-inset.css";
+@import "./lib/components/image-blend.css";
+@import "./lib/components/modal.css";
+@import "./lib/components/object-fit.css";
+@import "./lib/components/popover.css";
