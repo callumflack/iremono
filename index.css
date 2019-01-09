@@ -3,6 +3,8 @@
 @import "suitcss-base";
 
 /* Utilities */
+@import "./lib/utilities/controls.css";
+@import "./lib/utilities/input.css";
 
 /* Forms */
 @import "./lib/utilities/forms/base.css";
@@ -41,12 +43,10 @@
 
 /* Utilities override */
 @import "./lib/utilities/color.css";
-@import "./lib/utilities/controls.css";
 @import "./lib/utilities/display.css";
 @import "./lib/utilities/flexbox.css";
 @import "./lib/utilities/height.css";
 @import "./lib/utilities/icon.css";
-@import "./lib/utilities/input.css";
 @import "./lib/utilities/link.css";
 @import "./lib/utilities/media.css";
 @import "./lib/utilities/position.css";
