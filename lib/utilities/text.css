@@ -21,6 +21,9 @@
 .u-textNoWrap {
   white-space: nowrap !important;
 }
+.u-textUppercase {
+  text-transform: uppercase !important;
+}
 .u-textLowercase {
   text-transform: lowercase !important;
 }

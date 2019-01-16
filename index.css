@@ -3,21 +3,8 @@
 @import "suitcss-base";
 
 /* Utilities */
-@import "./lib/utilities/block.css";
-@import "./lib/utilities/color.css";
 @import "./lib/utilities/controls.css";
-@import "./lib/utilities/display.css";
-@import "./lib/utilities/flexbox.css";
-@import "./lib/utilities/height.css";
-@import "./lib/utilities/icon.css";
 @import "./lib/utilities/input.css";
-@import "./lib/utilities/link.css";
-@import "./lib/utilities/media.css";
-@import "./lib/utilities/position.css";
-@import "./lib/utilities/spacing.css";
-@import "./lib/utilities/text.css";
-@import "./lib/utilities/width.css";
-@import "./lib/utilities/zindex.css";
 
 /* Forms */
 @import "./lib/utilities/forms/base.css";
@@ -40,6 +27,22 @@
 @import "./lib/typography/lists.css";
 @import "./lib/typography/horizontal-rule.css";
 
+/* Utilities override */
+@import "./lib/utilities/color.css";
+@import "./lib/utilities/display.css";
+@import "./lib/utilities/flexbox.css";
+@import "./lib/utilities/height.css";
+@import "./lib/utilities/icon.css";
+@import "./lib/utilities/link.css";
+@import "./lib/utilities/media.css";
+@import "./lib/utilities/position.css";
+@import "./lib/utilities/responsive-block.css";
+@import "./lib/utilities/responsive-spacing.css";
+/* @import "./lib/utilities/spacing.css"; */
+@import "./lib/utilities/text.css";
+@import "./lib/utilities/width.css";
+@import "./lib/utilities/zindex.css";
+
 /* Components */
 @import "./lib/components/arrow.css";
 @import "./lib/components/aspect-ratio.css";
@@ -47,6 +50,9 @@
 @import "./lib/components/container.css";
 @import "./lib/components/cover-image.css";
 @import "./lib/components/flex-grid.css";
+@import "./lib/components/grid-extract.css";
+@import "./lib/components/gutter-inset.css";
 @import "./lib/components/image-blend.css";
 @import "./lib/components/modal.css";
+@import "./lib/components/object-fit.css";
 @import "./lib/components/popover.css";

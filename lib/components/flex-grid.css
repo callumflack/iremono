@@ -4,17 +4,17 @@
 
  */
 
-@define-mixin flexGrid $flex-grow, $flex-basis, $grid-gap {
+.FlexGrid {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  margin-right: calc(-1 * $grid-gap);
-  margin-left: calc(-1 * $grid-gap);
+  margin-right: calc(-1 * var(--flex-grid-gutter));
+  margin-left: calc(-1 * var(--flex-grid-gutter));
 
   & > * {
-    flex: $flex-grow 1 $flex-basis;
-    padding-right: $grid-gap;
-    padding-left: $grid-gap;
+    flex: 1 1 auto;
+    padding-right: var(--flex-grid-gutter);
+    padding-left: var(--flex-grid-gutter);
   }
 
   @media (--sm) {
@@ -22,32 +22,38 @@
   }
 }
 
-.FlexGrid {
-  @mixin flexGrid 1, auto, var(--flex-grid-gutter);
-}
+/* 
 
-.FlexGrid--sm {
-  @mixin flexGrid 1, auto, var(--s-2);
-}
+  A wrapper is required to handle the edge of the DOM window, 
+  if no other parent div. 
 
-.FlexGrid--lg {
-  @mixin flexGrid 1, auto, 3vw;
-}
+*/
 
-.FlexGrid--block {
-  @mixin flexGrid 0, auto, var(--space);
-  margin: calc(-1 * var(--space));
-
-  & > * {
-    padding-top: var(--space);
-    padding-bottom: var(--space);
+.FlexGridWindowWrapper {
+  @media (--sm) {
+    margin-right: calc(0.5 * var(--grid-gutter));
+    margin-left: calc(0.5 * var(--grid-gutter));
   }
 }
 
-.FlexGrid--noGrow {
-  @mixin flexGrid 0, auto, var(--flex-grid-gutter);
+/* customisation examples */
+
+.FlexGrid--noGutter {
+  --flex-grid-gutter: 0;
 }
 
-.FlexGrid--noGap {
-  @mixin flexGrid 1, auto, 0;
+.FlexGrid--sm {
+  --flex-grid-gutter: var(--flex-grid-gutter-sm);
+}
+
+.FlexGrid--lg {
+  --flex-grid-gutter: var(--flex-grid-gutter-lg);
+}
+
+.FlexGrid--noGrow > * {
+  flex-grow: 0;
+}
+
+.FlexGrid--retainGrid {
+  flex-direction: row !important;
 }

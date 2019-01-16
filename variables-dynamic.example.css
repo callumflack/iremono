@@ -1,0 +1,104 @@
+/* eslint-disable */
+/* prettier-ignore */
+
+/* 
+
+
+  Responsive custom properties
+
+  Single variables within media queries are a great idea:
+  * https://philipwalton.com/articles/why-im-excited-about-native-css-variables/
+  * https://www.madebymike.com.au/writing/using-css-variables/
+
+  …altho postcss-custom-properties limits vars to the `:root`:
+  "[it's] a limited subset (to :root selector) of the features provided by native CSS custom properties. 
+  Since we do not know the DOM in the context of this plugin, we cannot produce safe output."
+  See:
+  * https://github.com/postcss/postcss-custom-properties
+  * https://css-tricks.com/issue-preprocessing-css-custom-properties/
+
+  So you must ensure custom properties are tied to a selector, like :root. 
+  Note that Hi-Q does this well.
+
+  :root { --s-title: 20px; }
+
+  @media (min-width: 80em) {
+    :root { --s-title: 40px; }
+  }
+
+ */
+
+:root {
+  --rs-space: 0.5rem;
+  --rs-block-space: 1.5rem;
+  --rs-nav-height: 5rem;
+  --rs-hero: 24rem;
+}
+@media (--sm) {
+  :root {
+    --rs-space: 0.666rem;
+  }
+}
+@media (--md) {
+  :root {
+    --rs-space: 0.825rem;
+    --rs-block-space: 2.25rem;
+    --rs-nav-height: 104px;
+    --rs-hero: 38rem;
+  }
+}
+@media (--lg) {
+  :root {
+    --rs-space: 1rem;
+    --rs-block-space: 3.25rem;
+    --rs-nav-height: 128px;
+    --rs-hero: 47rem;
+  }
+}
+
+/* 
+
+  Font-sizes
+
+ */
+
+:root {
+  --rfs-text-xs: 10px;
+  --rfs-text-sm: 12px;
+  --rfs-text: 14px;
+  --rfs-text-md: 14px;
+  --rfs-text-lg: 16px;
+  --rfs-heading: 16px;
+  --rfs-title: 27px;
+  --rfs-supertitle: 40px;
+}
+@media (--sm) {
+  :root {
+    --rfs-text-xs: 12px;
+    --rfs-text-sm: 13px;
+    --rfs-text: 17px;
+    --rfs-text-md: 17px;
+    --rfs-text-lg: 19px;
+    --rfs-heading: 19px;
+    --rfs-title: 30px;
+    --rfs-supertitle: 48px;
+  }
+}
+@media (--mdl) {
+  :root {
+    --rfs-title: 36px;
+    --rfs-supertitle: 60px;
+  }
+}
+@media (--lg) {
+  :root {
+    --rfs-text-xs: 13px;
+    --rfs-text-sm: 14px;
+    --rfs-text: 19px;
+    --rfs-text-md: 19px;
+    --rfs-text-lg: 22px;
+    --rfs-heading: 22px;
+    --rfs-title: 44px;
+    --rfs-supertitle: 72px;
+  }
+}

@@ -4,7 +4,7 @@
 
 */
 
-@define-mixin CoverImage {
+.CoverImage {
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,17 +12,17 @@
   margin-right: auto;
 }
 
-.CoverImage {
-  @mixin CoverImage;
-}
+.CoverImage--withScreen {
+  position: relative;
 
-.CoverImage--withScreen:before {
-  background-color: var(--cover-image-screen-color);
-  content: "";
-  height: 100%;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 100%;
+  &:before {
+    background-color: var(--cover-image-screen-color);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+  }
 }

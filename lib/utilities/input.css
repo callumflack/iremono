@@ -48,7 +48,10 @@
     }
   }
 
-  :--not-writable {
+  /* :--not-writable { */
+  &:disabled,
+  &[aria-disabled],
+  &[readonly] {
     border-color: var(--input-notwriteable-border-color);
     background-color: var(--input-notwriteable-bg-color);
     color: var(--input-notwriteable-text-color);
@@ -62,7 +65,7 @@
   }
 
   &:required:invalid {
-    /* border-color: var(--c-danger); */
+    border-color: var(--c-danger);
   }
 
   &:required:valid {

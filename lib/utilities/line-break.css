@@ -1,0 +1,20 @@
+/* 
+
+  Utility: Responsive line break
+  https://css-tricks.com/injecting-line-break/
+  
+  Add `m-xA` to emulates `text-align: center`
+
+ */
+
+@media (--lg) {
+  .u-lg-lineBreak {
+    display: table !important;
+  }
+}
+
+@media (--sm) {
+  .u-sm-lineBreak {
+    display: table !important;
+  }
+}

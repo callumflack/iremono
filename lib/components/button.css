@@ -1,3 +1,10 @@
+/* 
+
+  To customise button typography, `.Button` is set-up
+  to inherit a typographic class.
+
+ */
+
 .Button {
   align-items: center;
   background-color: var(--button-background-color);
@@ -14,9 +21,7 @@
   height: var(--button-height);
   justify-content: center;
   margin: 0;
-  padding-left: var(--button-xpadding);
-  padding-right: var(--button-xpadding);
-  padding-bottom: var(--button-text-alignment);
+  padding: 0 var(--button-padding-x);
   position: relative;
   text-decoration: none;
   text-transform: var(--button-font-case);

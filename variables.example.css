@@ -28,20 +28,23 @@
  */
 
 :root {
-  --rs-space: 1.5rem;
+  --rs-space: 0.5rem;
+  --rs-block-space: 1.5rem;
   --rs-typography-space: 1rem;
 }
 
 @media (--md) {
   :root {
-    --rs-space: 3rem;
+    --rs-space: 0.75rem;
+    --rs-block-space: 3rem;
     --rs-typography-space: 1.5rem;
   }
 }
 
 @media (--lg) {
   :root {
-    --rs-space: 4rem;
+    --rs-space: 1rem;
+    --rs-block-space: 4rem;
   }
 }
 
@@ -69,7 +72,7 @@
   @custom-media --mo (max-width: 512px); /* mo = mobile only */
   @custom-media --sm (min-width: 513px);
   @custom-media --md (min-width: 768px);
-  @custom-media --md-landscape (min-width: 1024px);
+  @custom-media --mdl (min-width: 1024px);
   @custom-media --lg (min-width: 1280px);
   @custom-media --xl (min-width: 1500px);
   @custom-media --su (min-width: 1800px);
@@ -104,6 +107,10 @@
   --s-5: 4rem;
   --s-6: 8rem;
   --s-7: 16rem;
+
+  --s-paragraph: calc(1.25 * var(--rs-space));
+  --s-headline: calc(2 * var(--paragraph));
+  --s-blockquote: calc(1.1 * var(--paragraph));
 
   /* 
   
@@ -245,6 +252,7 @@
 
   --border-radius: 4px;
   --cover-image-screen-color: rgba(0, 0, 0, 0.25);
+  --container-window-inset: 3vw;
   --figure-space-align-within-text: 0;
   --figcaption-margin-top: 0.5rem;
   --figcaption-font-weight: 400;
@@ -252,6 +260,8 @@
   --horizontal-rule-color: var(--c-rule);
   --horizontal-rule-space: calc(0.5 * var(--space));
   --inline-block-children-space: calc(1.25 * var(--s-3));
+  --list-inset-padding: calc(2 * var(--rs-space));
+  --list-style-type: disc;
   --progress-height: 32px;
   --text-link-decoration: none;
 
@@ -273,7 +283,7 @@
   --button-disabled-opacity: 0.6;
   --button-height: calc(1 * var(--field-height));
   --button-inline-spacing: 0;
-  --button-xpadding: 1.5em;
+  --button-padding-x: 1.5em;
 
   /* typography */
   --button-font-case: uppercase;
@@ -290,8 +300,7 @@
    */
 
   --field-height: 3rem;
-  --field-space: 1rem 1.25rem;
-  --field-xpadding: 0.75em;
+  --field-padding-x: 0.5em;
   --input-border-color: var(--c-brand-rule);
   --input-border-color-hover: var(--c-brand-rule);
   --input-border-color-focus: var(--c-brand-rule);
@@ -306,6 +315,8 @@
   --input-text-color: var(--c-brand);
   --input-text-color-hover: var(--c-brand);
   --input-text-color-focus: var(--c-brand);
+  --textarea-padding-x: var(--field-padding-x);
+  --textarea-padding-y: 0.75em;
 
   /* 
 

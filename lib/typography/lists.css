@@ -1,8 +1,7 @@
 ul,
 ol {
-  list-style-type: square;
-  margin: 0;
-  padding-left: 2rem;
+  list-style-type: var(--list-style-type);
+  padding-left: var(--list-inset-padding);
 
   & ol,
   & ul {
@@ -15,12 +14,7 @@ li {
   padding: 0;
 }
 
-@define-mixin listUnstyled {
+.u-listUnstyled {
   padding-left: 0;
   list-style: none;
 }
-
-.u-listUnstyled {
-  @mixin listUnstyled;
-}
-

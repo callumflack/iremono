@@ -16,11 +16,17 @@
 .c-brand-lowlight {
   color: var(--c-brand-lowlight) !important;
 }
+.c-link {
+  color: var(--c-link) !important;
+}
 .c-black {
   color: black !important;
 }
 .c-text {
   color: var(--c-text) !important;
+}
+.c-text-mid {
+  color: var(--c-text-mid) !important;
 }
 .c-text-light {
   color: var(--c-text-light) !important;
@@ -42,6 +48,9 @@
 }
 .c-white {
   color: white !important;
+}
+.c-transparent {
+  color: transparent !important;
 }
 .c-success {
   color: var(--c-success) !important;
@@ -71,6 +80,9 @@
 }
 .c-block-text-light > * {
   color: var(--c-text-light) !important;
+}
+.c-block-text-mid > * {
+  color: var(--c-text-mid) !important;
 }
 .c-block-neutral > * {
   color: var(--c-neutral) !important;
@@ -106,11 +118,17 @@
 .bg-text {
   background-color: var(--c-text) !important;
 }
+.bg-text-mid {
+  background-color: var(--c-text-mid) !important;
+}
 .bg-text-light {
   background-color: var(--c-text-light) !important;
 }
 .bg-gray {
   background-color: var(--c-gray) !important;
+}
+.bg-muted {
+  background-color: var(--c-muted) !important;
 }
 .bg-rule {
   background-color: var(--c-rule) !important;
@@ -132,6 +150,9 @@
 }
 .bg-white {
   background-color: white !important;
+}
+.bg-transparent {
+  background-color: transparent !important;
 }
 .bg-success {
   background-color: var(--c-success) !important;

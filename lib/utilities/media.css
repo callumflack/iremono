@@ -26,6 +26,12 @@ img {
   vertical-align: middle;
 }
 
+/* don't forget the alt tag */
+/* img[alt=""],
+img:not([alt]) {
+  border: 5px dashed red;
+} */
+
 video:focus {
   box-shadow: 0 0 0 0.2rem hsl(210, 100%, 85%);
   outline: 0;

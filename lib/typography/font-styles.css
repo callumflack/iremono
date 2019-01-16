@@ -1,37 +1,4 @@
 /* 
-
-  Responsive typography with ems.
-
-  The maths:
-
-  <desired-pt-size>/<text-unit>/16 * 16
-  48/19/16 * 16 = 2.526315789
-
-  <text-unit> * 16 * 1
-  1.1875 * 16 * 1 = 19pt
-
-  Applied to first child of <nuxt>.
-
-*/
-
-.fs-scale-reset {
-  font-size: var(--rfs-0) !important;
-
-  @media (--sm) {
-    font-size: var(--rfs-1) !important;
-  }
-  @media (--md) {
-    font-size: var(--rfs-2) !important;
-  }
-  @media (--md-landscape) {
-    font-size: var(--rfs-3) !important;
-  }
-  @media (--lg) {
-    font-size: var(--rfs-4) !important;
-  }
-}
-
-/* 
   Font families
  */
 
@@ -47,34 +14,34 @@
  */
 
 .fs-text-xs {
-  font-size: var(--fs-text-xs) !important;
+  font-size: var(--rfs-text-xs) !important;
 }
 .fs-text-sm {
-  font-size: var(--fs-text-sm) !important;
+  font-size: var(--rfs-text-sm) !important;
 }
 .fs-text {
-  font-size: var(--fs-text) !important;
+  font-size: var(--rfs-text) !important;
 }
 .fs-text-md {
-  font-size: var(--fs-text-md) !important;
+  font-size: var(--rfs-text-md) !important;
 }
 .fs-text-lg {
-  font-size: var(--fs-text-lg) !important;
+  font-size: var(--rfs-text-lg) !important;
 }
 .fs-subheading {
-  font-size: var(--fs-subheading) !important;
+  font-size: var(--rfs-subheading) !important;
 }
 .fs-heading {
-  font-size: var(--fs-heading) !important;
+  font-size: var(--rfs-heading) !important;
 }
 .fs-subtitle {
-  font-size: var(--fs-subtitle) !important;
+  font-size: var(--rfs-subtitle) !important;
 }
 .fs-title {
-  font-size: var(--fs-title) !important;
+  font-size: var(--rfs-title) !important;
 }
 .fs-supertitle {
-  font-size: var(--fs-supertitle) !important;
+  font-size: var(--rfs-supertitle) !important;
 }
 
 /* 
@@ -86,6 +53,9 @@
 }
 .flh-tight {
   line-height: var(--flh-tight) !important;
+}
+.flh-touch {
+  line-height: var(--flh-touch) !important;
 }
 .flh-reduced {
   line-height: var(--flh-reduced) !important;
@@ -115,31 +85,31 @@
   Font weights
  */
 
-.fw-hairline {
+.fw-100 {
   font-weight: 100 !important;
 }
-.fw-thin {
+.fw-200 {
   font-weight: 200 !important;
 }
-.fw-light {
+.fw-300 {
   font-weight: 300 !important;
 }
-.fw-regular {
+.fw-400 {
   font-weight: 400 !important;
 }
-.fw-medium {
+.fw-500 {
   font-weight: 500 !important;
 }
-.fw-semibold {
+.fw-600 {
   font-weight: 600 !important;
 }
-.fw-bold {
+.fw-700 {
   font-weight: 700 !important;
 }
-.fw-heavy {
+.fw-800 {
   font-weight: 800 !important;
 }
-.fw-black {
+.fw-900 {
   font-weight: 900 !important;
 }
 
@@ -160,36 +130,34 @@
 
  */
 
-.fs-block {
-  & > p,
-  & > ul,
-  & > li {
-    font-family: var(--fs-text);
+.fs-block-xs {
+  & > * {
+    font-size: var(--rfs-text-xs);
   }
 }
 
 .fs-block-sm {
-  & > p,
-  & > ul,
-  & > li {
-    font-family: var(--fs-text-sm);
+  & > * {
+    font-size: var(--rfs-text-sm);
+  }
+}
+
+.fs-block {
+  & > * {
+    font-size: var(--rfs-text);
   }
 }
 
 .fs-block-md {
-  & > p,
-  & > ul,
-  & > li {
-    font-family: var(--fs-text-md);
+  & > * {
+    font-size: var(--rfs-text-md);
     line-height: var(--flh-reduced);
   }
 }
 
 .fs-block-lg {
-  & > p,
-  & > ul,
-  & > li {
-    font-family: var(--fs-text-lg);
+  & > * {
+    font-size: var(--rfs-text-lg);
     font-weight: 200;
   }
 }

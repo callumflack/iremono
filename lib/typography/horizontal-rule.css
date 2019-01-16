@@ -8,7 +8,7 @@ hr {
   background-color: var(--horizontal-rule-color);
   border: 0;
   box-sizing: content-box;
-  height: 1px;
+  height: var(--horizontal-rule-height);
   margin-top: var(--horizontal-rule-space);
   margin-bottom: var(--horizontal-rule-space);
   overflow: visible;
