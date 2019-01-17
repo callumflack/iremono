@@ -33,7 +33,7 @@
 
 */
 
-.ehb-FlexGridWrapper {
+.FlexGridWrapper {
   @media (--sm) {
     margin-right: calc(0.5 * var(--grid-gutter));
     margin-left: calc(0.5 * var(--grid-gutter));
