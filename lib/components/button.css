@@ -7,7 +7,7 @@
 
 .Button {
   align-items: center;
-  background-color: var(--button-background-color);
+  background-color: var(--button-bg-color);
   border-color: var(--button-border-color);
   border-radius: var(--button-border-radius);
   border-style: solid;
@@ -54,6 +54,7 @@
 .Button:hover,
 .Button:focus,
 .Button:active {
+  background-color: var(--button-bg-color-hover);
   text-decoration: none;
 }
 
