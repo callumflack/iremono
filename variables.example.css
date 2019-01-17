@@ -271,7 +271,8 @@
 
    */
 
-  --button-background-color: var(--c-brand);
+  --button-bg-color: var(--c-brand);
+  --button-bg-color-hover: var(--c-brand);
   --button-border-color: var(--c-brand);
   --button-border-width: 1px;
   --button-border-radius: 0;
