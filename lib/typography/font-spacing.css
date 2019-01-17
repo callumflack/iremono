@@ -16,7 +16,11 @@ h6,
 figure,
 * + button,
 * + .Button,
-.ParagraphSpace {
+.ParagraphSpace,
+.Heading,
+.Subtitle,
+.Title,
+.Supertitle {
   margin-bottom: var(--s-paragraph);
 
   &:last-child {
@@ -50,7 +54,7 @@ button + button,
 
  */
 
-.Subtitle,
+/* .Subtitle,
 .Title,
 .Supertitle {
   margin-bottom: var(--s-paragraph);
@@ -58,7 +62,7 @@ button + button,
   &:last-child {
     margin-bottom: 0;
   }
-}
+} */
 
 .Scope-post h2,
 .Scope-post h3,
