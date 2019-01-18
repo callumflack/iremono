@@ -38,6 +38,14 @@
 
 /* customisation examples */
 
+.FlexGrid--allGutter {
+  margin: calc(-1 * var(--flex-grid-gutter));
+
+  & > * {
+    padding: var(--flex-grid-gutter);
+  }
+}
+
 .FlexGrid--noGutter {
   --flex-grid-gutter: 0;
 }
@@ -46,18 +54,18 @@
   --flex-grid-gutter: var(--flex-grid-gutter);
 }
 
-.FlexGrid--sm {
-  --flex-grid-gutter: var(--flex-grid-gutter-sm);
-}
-
-.FlexGrid--lg {
-  --flex-grid-gutter: var(--flex-grid-gutter-lg);
-}
-
 .FlexGrid--noGrow > * {
   flex-grow: 0;
 }
 
 .FlexGrid--retainGrid {
   flex-direction: row !important;
+}
+
+.FlexGrid--sm {
+  --flex-grid-gutter: var(--flex-grid-gutter-sm);
+}
+
+.FlexGrid--lg {
+  --flex-grid-gutter: var(--flex-grid-gutter-lg);
 }
