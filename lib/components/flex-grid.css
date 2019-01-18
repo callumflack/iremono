@@ -42,6 +42,10 @@
   --flex-grid-gutter: 0;
 }
 
+.FlexGrid--nestedGutter {
+  --flex-grid-gutter: var(--flex-grid-gutter);
+}
+
 .FlexGrid--sm {
   --flex-grid-gutter: var(--flex-grid-gutter-sm);
 }
