@@ -53,6 +53,6 @@
 @import "./lib/components/grid-extract.css";
 @import "./lib/components/gutter-inset.css";
 @import "./lib/components/image-blend.css";
-@import "./lib/components/modal.css";
+/* @import "./lib/components/modal.css"; */
 @import "./lib/components/object-fit.css";
 @import "./lib/components/popover.css";
