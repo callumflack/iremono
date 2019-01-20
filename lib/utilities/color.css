@@ -93,6 +93,12 @@
 .c-block-white > * {
   color: var(--c-white) !important;
 }
+.c-block-danger > * {
+  color: var(--c-danger) !important;
+}
+.c-block-success > * {
+  color: var(--c-success) !important;
+}
 
 /*
 
