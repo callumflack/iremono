@@ -65,10 +65,10 @@
   }
 
   &:required:invalid {
-    border-color: var(--c-danger);
+    border-color: var(--c-input-danger);
   }
 
   &:required:valid {
-    border-color: var(--c-success);
+    border-color: var(--c-input-success);
   }
 }
