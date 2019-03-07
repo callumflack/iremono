@@ -1,10 +1,29 @@
 /* Inset something like a `.Container` */
 
-.GutterInsetX {
+.GutterInsetX,
+.Gutter-x {
   padding-left: calc(1 * var(--grid-gutter));
   padding-right: calc(1 * var(--grid-gutter));
 }
-.GutterInsetY {
+
+.GutterInsetY,
+.Gutter-y {
   padding-top: calc(1 * var(--grid-gutter));
+  padding-bottom: calc(1 * var(--grid-gutter));
+}
+
+.Gutter-l {
+  padding-left: calc(1 * var(--grid-gutter));
+}
+
+.Gutter-r {
+  padding-right: calc(1 * var(--grid-gutter));
+}
+
+.Gutter-t {
+  padding-top: calc(1 * var(--grid-gutter));
+}
+
+.Gutter-b {
   padding-bottom: calc(1 * var(--grid-gutter));
 }
