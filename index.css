@@ -35,6 +35,7 @@
 @import "./lib/utilities/icon.css";
 @import "./lib/utilities/link.css";
 @import "./lib/utilities/media.css";
+@import "./lib/utilities/overflow.css";
 @import "./lib/utilities/position.css";
 @import "./lib/utilities/responsive-block.css";
 @import "./lib/utilities/responsive-spacing.css";
