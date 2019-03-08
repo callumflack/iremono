@@ -33,7 +33,9 @@
 
 .w-100,
 .w-full {
-  width: 100% !important;
+  /* width: 100% !important; */
+  /* figure out use of !important… */
+  width: 100%;
 }
 
 /* Make an element never exceed the width of its parent. */
