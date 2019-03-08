@@ -24,8 +24,8 @@
 
 /*
 
-  A wrapper is required to handle the edge of the DOM window,
-  if no other parent div.
+  A wrapper is required when there is no other parent div,
+  in order to handle the edge of the DOM window.
 
 */
 
@@ -36,15 +36,24 @@
   }
 }
 
-/* arrangements */
+/*
+  remove the gutter
+  don't reset the grid variable --grid-gutter: 0;
+  b/c this will be inherited by nested grids
+
+*/
 
 .FlexGrid--noGutter {
-  --grid-gutter: 0;
+  margin-right: 0;
+  margin-left: 0;
+
+  & > * {
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 
-.FlexGrid--nestedGutter {
-  --grid-gutter: var(--grid-gutter);
-}
+/* variable arrangements */
 
 .FlexGrid--noGrow > * {
   flex-grow: 0;
