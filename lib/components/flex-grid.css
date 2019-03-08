@@ -8,13 +8,13 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  margin-right: calc(-1 * var(--flex-grid-gutter));
-  margin-left: calc(-1 * var(--flex-grid-gutter));
+  margin-right: calc(-1 * var(--grid-gutter));
+  margin-left: calc(-1 * var(--grid-gutter));
 
   & > * {
     flex: 1 1 auto;
-    padding-right: var(--flex-grid-gutter);
-    padding-left: var(--flex-grid-gutter);
+    padding-right: var(--grid-gutter);
+    padding-left: var(--grid-gutter);
   }
 
   @media (--sm) {
@@ -22,10 +22,10 @@
   }
 }
 
-/* 
+/*
 
-  A wrapper is required to handle the edge of the DOM window, 
-  if no other parent div. 
+  A wrapper is required to handle the edge of the DOM window,
+  if no other parent div.
 
 */
 
@@ -36,22 +36,14 @@
   }
 }
 
-/* customisation examples */
-
-.FlexGrid--allGutter {
-  margin: calc(-1 * var(--flex-grid-gutter));
-
-  & > * {
-    padding: var(--flex-grid-gutter);
-  }
-}
+/* arrangements */
 
 .FlexGrid--noGutter {
-  --flex-grid-gutter: 0;
+  --grid-gutter: 0;
 }
 
 .FlexGrid--nestedGutter {
-  --flex-grid-gutter: var(--flex-grid-gutter);
+  --grid-gutter: var(--grid-gutter);
 }
 
 .FlexGrid--noGrow > * {
@@ -62,10 +54,38 @@
   flex-direction: row !important;
 }
 
+/* sizes */
+
 .FlexGrid--sm {
-  --flex-grid-gutter: var(--flex-grid-gutter-sm);
+  --grid-gutter: var(--grid-gutter-sm);
 }
 
 .FlexGrid--lg {
-  --flex-grid-gutter: var(--flex-grid-gutter-lg);
+  --grid-gutter: var(--grid-gutter-lg);
+}
+
+/* all sides */
+
+.FlexGrid--allGutter {
+  margin: calc(-1 * var(--grid-gutter));
+
+  & > * {
+    padding: var(--grid-gutter);
+  }
+}
+
+.FlexGrid--allGutterSm {
+  margin: calc(-1 * var(--grid-gutter-sm));
+
+  & > * {
+    padding: var(--grid-gutter-sm);
+  }
+}
+
+.FlexGrid--allGutterLg {
+  margin: calc(-1 * var(--grid-gutter-lg));
+
+  & > * {
+    padding: var(--grid-gutter-lg);
+  }
 }
