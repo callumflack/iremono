@@ -1,15 +1,18 @@
-/* 
+/*
   Font families
  */
 
 .ff-text {
   font-family: var(--ff-text), var(--ff-stack-text) !important;
 }
-.ff-title {
-  font-family: var(--ff-title), var(--ff-stack-heading) !important;
+.ff-heading {
+  font-family: var(--ff-heading), var(--ff-stack-heading) !important;
+}
+.ff-display {
+  font-family: var(--ff-display), var(--ff-stack-heading) !important;
 }
 
-/* 
+/*
   Font sizes
  */
 
@@ -44,7 +47,7 @@
   font-size: var(--rfs-supertitle) !important;
 }
 
-/* 
+/*
   Font line-height
  */
 
@@ -67,7 +70,7 @@
   line-height: var(--flh-loose) !important;
 }
 
-/* 
+/*
   Font letter-spacing
  */
 
@@ -81,7 +84,7 @@
   letter-spacing: var(--fls-loose) !important;
 }
 
-/* 
+/*
   Font weights
  */
 
@@ -113,7 +116,7 @@
   font-weight: 900 !important;
 }
 
-/* 
+/*
   Font styles
  */
 
