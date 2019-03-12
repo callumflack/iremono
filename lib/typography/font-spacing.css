@@ -1,4 +1,4 @@
-/* 
+/*
 
   Text spacing
 
@@ -17,6 +17,7 @@ figure,
 * + button,
 * + .Button,
 .ParagraphSpace,
+.s-paragraph,
 .Heading,
 .Subtitle,
 .Title,
@@ -64,10 +65,12 @@ button + button,
   }
 } */
 
+.Scope-post h1,
 .Scope-post h2,
 .Scope-post h3,
 .Scope-post h4,
-.HeadingSpace {
+.HeadingSpace,
+.s-heading {
   &:not(:first-child) {
     margin-top: var(--s-headline);
   }
