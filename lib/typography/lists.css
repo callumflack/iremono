@@ -14,7 +14,8 @@ li {
   padding: 0;
 }
 
-.u-listUnstyled {
+.u-listUnstyled,
+.u-listReset {
   padding-left: 0;
   list-style: none;
 }
