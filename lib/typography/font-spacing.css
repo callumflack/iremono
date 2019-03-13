@@ -32,6 +32,13 @@ figure,
     margin-top: var(--s-paragraph);
   }
 }
+.s-mo-paragraphTop {
+  @media (--mo) {
+    &:not(:last-child) {
+      margin-top: var(--s-paragraph);
+    }
+  }
+}
 
 figure {
   padding: var(--figure-space-align-within-text) 0;
@@ -83,5 +90,12 @@ button + button,
 .s-headingBottom {
   &:not(:first-child) {
     margin-bottom: var(--s-headline);
+  }
+}
+.s-mo-headingBottom {
+  @media (--mo) {
+    &:not(:first-child) {
+      margin-bottom: var(--s-headline);
+    }
   }
 }
