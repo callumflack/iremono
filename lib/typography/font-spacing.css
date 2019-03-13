@@ -22,10 +22,14 @@ figure,
 .Subtitle,
 .Title,
 .Supertitle {
-  margin-bottom: var(--s-paragraph);
+  &:not(:last-child) {
+    margin-bottom: var(--s-paragraph);
+  }
+}
 
-  &:last-child {
-    margin-bottom: 0;
+.s-paragraphTop {
+  &:not(:last-child) {
+    margin-top: var(--s-paragraph);
   }
 }
 
@@ -73,5 +77,11 @@ button + button,
 .s-heading {
   &:not(:first-child) {
     margin-top: var(--s-headline);
+  }
+}
+
+.s-headingBottom {
+  &:not(:first-child) {
+    margin-bottom: var(--s-headline);
   }
 }
