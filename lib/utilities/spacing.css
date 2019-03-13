@@ -1,5 +1,5 @@
 /*
-   
+
    Spacing
    Source: http://tachyons.io/docs/layout/spacing/
 
@@ -58,7 +58,8 @@
   ----------------------------------------------------------------
 */
 
-.m-aA {
+.m-aA,
+.m-aa {
   margin: auto !important;
 }
 .m-a0 {
@@ -96,7 +97,8 @@
   margin-top: 0 !important;
   margin-bottom: 0 !important;
 }
-.m-xA {
+.m-xA,
+.m-xa {
   margin-left: auto !important;
   margin-right: auto !important;
 }
@@ -138,7 +140,8 @@
     padding-right: 0 !important;
   }
 
-  .m-mo-aA {
+  .m-mo-aA,
+  .m-mo-aa {
     margin: auto !important;
   }
   .m-mo-a0 {
@@ -176,7 +179,8 @@
     margin-top: 0 !important;
     margin-bottom: 0 !important;
   }
-  .m-mo-xA {
+  .m-mo-xA,
+  .m-mo-xa {
     margin-left: auto !important;
     margin-right: auto !important;
   }
@@ -219,7 +223,8 @@
     padding-right: 0 !important;
   }
 
-  .m-sm-aA {
+  .m-sm-aA,
+  .m-sm-aa {
     margin: auto !important;
   }
   .m-sm-a0 {
@@ -257,7 +262,8 @@
     margin-top: 0 !important;
     margin-bottom: 0 !important;
   }
-  .m-sm-xA {
+  .m-sm-xA,
+  .m-sm-xa {
     margin-left: auto !important;
     margin-right: auto !important;
   }
@@ -300,7 +306,8 @@
     padding-right: 0 !important;
   }
 
-  .m-md-aA {
+  .m-md-aA,
+  .m-md-aa {
     margin: auto !important;
   }
   .m-md-a0 {
@@ -338,7 +345,8 @@
     margin-top: 0 !important;
     margin-bottom: 0 !important;
   }
-  .m-md-xA {
+  .m-md-xA,
+  .m-md-xa {
     margin-left: auto !important;
     margin-right: auto !important;
   }
@@ -381,7 +389,8 @@
     padding-right: 0 !important;
   }
 
-  .m-lg-aA {
+  .m-lg-aA,
+  .m-lg-aa {
     margin: auto !important;
   }
   .m-lg-a0 {
@@ -419,7 +428,8 @@
     margin-top: 0 !important;
     margin-bottom: 0 !important;
   }
-  .m-lg-xA {
+  .m-lg-xA,
+  .m-lg-xa {
     margin-left: auto !important;
     margin-right: auto !important;
   }
@@ -462,7 +472,8 @@
     padding-right: 0 !important;
   }
 
-  .m-xl-aA {
+  .m-xl-aA,
+  .m-xl-aa {
     margin: auto !important;
   }
   .m-xl-a0 {
@@ -500,7 +511,8 @@
     margin-top: 0 !important;
     margin-bottom: 0 !important;
   }
-  .m-xl-xA {
+  .m-xl-xA,
+  .m-xl-xa {
     margin-left: auto !important;
     margin-right: auto !important;
   }
