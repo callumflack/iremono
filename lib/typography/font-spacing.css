@@ -55,13 +55,13 @@ blockquote {
 .HeadingSpace,
 .s-heading {
   &:not(:first-child) {
-    margin-top: var(--s-headline);
+    margin-top: var(--s-heading);
   }
 }
 
 .s-headingBottom {
   &:not(:first-child) {
-    margin-bottom: var(--s-headline);
+    margin-bottom: var(--s-heading);
   }
 }
 

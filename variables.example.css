@@ -1,19 +1,19 @@
 /* eslint-disable */
 /* prettier-ignore */
 
-/* 
+/*
 
 
 
 
   Responsive custom properties!
-  
+
   On css custom properties & postcss-custom-properties:
   Single variables within media queries are a great idea:
   https://philipwalton.com/articles/why-im-excited-about-native-css-variables/
   …but postcss-custom-properties limits vars to the `:root`:
   "Since we do not know the DOM in the context of this plugin, we cannot produce safe output." —> https://github.com/postcss/postcss-custom-properties
-  
+
   :root { --s-title: 20px; }
 
   @media (min-width: 80em) {
@@ -48,7 +48,7 @@
   }
 }
 
-/* 
+/*
 
 
 
@@ -63,9 +63,9 @@
  */
 
 :root {
-  /* 
+  /*
 
-    Media queries 
+    Media queries
 
    */
 
@@ -77,7 +77,7 @@
   @custom-media --xl (min-width: 1500px);
   @custom-media --su (min-width: 1800px);
 
-  /* 
+  /*
 
     Spacing
 
@@ -109,13 +109,13 @@
   --s-7: 16rem;
 
   --s-paragraph: calc(1.25 * var(--rs-space));
-  --s-headline: calc(2 * var(--paragraph));
+  --s-heading: calc(2 * var(--paragraph));
   --s-blockquote: calc(1.1 * var(--paragraph));
 
-  /* 
-  
+  /*
+
     Fonts
-  
+
    */
 
   --ff-text: "WorkSans";
@@ -123,14 +123,15 @@
   --ff-meta: var(--ff-text);
 
   --ff-stack-serif: Georgia, "Times New Roman", Times, serif;
-  --ff-stack-sans: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
-  --ff-stack-mono: "Courier New", "Consolas", "Andale Mono", "Lucida San Typewriter", "Lucida Console",
-    mono-spaced;
+  --ff-stack-sans: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial,
+    sans-serif;
+  --ff-stack-mono: "Courier New", "Consolas", "Andale Mono", "Lucida San Typewriter",
+    "Lucida Console", mono-spaced;
 
   --ff-stack-text: var(--ff-stack-sans);
   --ff-stack-heading: var(--ff-stack-serif);
 
-  /* 
+  /*
 
     Responsive font sizes
     Can handles responsive spacings as well.
@@ -171,10 +172,10 @@
   --fs-title: calc(var(--fs-text-unit) * 2em);
   --fs-supertitle: calc(var(--fs-text-unit) * 3.789473684em);
 
-  /* 
-  
+  /*
+
     Font leading (line-height) & tracking (letter-spacing)
-   
+
    */
 
   --fls-text: -0.001em;
@@ -195,7 +196,7 @@
   --fls-touch-positive: 0.02em;
   --fls-loose: 0.075em;
 
-  /* 
+  /*
 
     Colors
     Ref: https://medium.com/@mwichary/dark-theme-in-a-day-3518dde2955a
@@ -244,7 +245,7 @@
 
   --initialBlendColor: rgba(97, 22, 106, 0.7);
 
-  /* 
+  /*
 
     Utility variables
 
@@ -265,7 +266,7 @@
   --progress-height: 32px;
   --text-link-decoration: none;
 
-  /* 
+  /*
 
     Button
 
@@ -294,7 +295,7 @@
   --button-letter-spacing-case: var(--fls-loose);
   --button-text-alignment: 0.5px;
 
-  /* 
+  /*
 
     Forms
 
@@ -319,7 +320,7 @@
   --textarea-padding-x: var(--field-padding-x);
   --textarea-padding-y: 0.75em;
 
-  /* 
+  /*
 
     Transitions
 
@@ -332,7 +333,7 @@
   --transition-easing-thisalso: cubic-bezier(0.19, 1, 0.22, 1);
   --transition-easing-theme: cubic-bezier(1, 0.5, 0.8, 1);
 
-  /* 
+  /*
 
     Theme
 
