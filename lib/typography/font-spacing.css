@@ -13,7 +13,6 @@ h2,
 h3,
 h4,
 h6,
-figure,
 * + button,
 * + .Button,
 .ParagraphSpace,
@@ -21,7 +20,8 @@ figure,
 .Heading,
 .Subtitle,
 .Title,
-.Supertitle {
+.Supertitle,
+.Display {
   &:not(:last-child) {
     margin-bottom: var(--s-paragraph);
   }
