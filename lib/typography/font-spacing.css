@@ -32,13 +32,6 @@ figure,
     margin-top: var(--s-paragraph);
   }
 }
-.s-mo-paragraphTop {
-  @media (--mo) {
-    &:not(:last-child) {
-      margin-top: var(--s-paragraph);
-    }
-  }
-}
 
 figure {
   padding: var(--figure-space-align-within-text) 0;
@@ -51,30 +44,9 @@ blockquote {
 
 /*
 
-  Inline button spacing
-
- */
-
-button + button,
-.Button + .Button {
-  margin-left: var(--button-inline-spacing);
-}
-
-/*
-
   Heading spacing
 
  */
-
-/* .Subtitle,
-.Title,
-.Supertitle {
-  margin-bottom: var(--s-paragraph);
-
-  &:last-child {
-    margin-bottom: 0;
-  }
-} */
 
 .Scope-post h1,
 .Scope-post h2,
@@ -92,10 +64,14 @@ button + button,
     margin-bottom: var(--s-headline);
   }
 }
-.s-mo-headingBottom {
-  @media (--mo) {
-    &:not(:first-child) {
-      margin-bottom: var(--s-headline);
-    }
-  }
+
+/*
+
+  Inline button spacing
+
+ */
+
+button + button,
+.Button + .Button {
+  margin-left: var(--button-inline-spacing);
 }
