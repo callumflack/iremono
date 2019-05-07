@@ -4,7 +4,7 @@ Iremono is a semi-atomic CSS styling kit for designing in code.
 
 ## Note well
 
-This is a work in progress. I will be actively updating it in use on current projects. Expect breaking changes.
+This is a work in progress. I will be actively updating it in use on current projects. Expect breaking changes. These notes are not even up-to-date…
 
 ## How to use it
 
